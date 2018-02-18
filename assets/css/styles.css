@@ -1,0 +1,47 @@
+/*
+This file is subject to the terms and conditions defined in
+file 'LICENSE.txt', which is part of this source code package.
+*/
+/*
+    Created on : ‎February ‎18, ‎2018, ‏‎9:21:51 AM
+    Author     : abhijithvijayan
+*/
+
+body {
+  background-color: #000;
+  background-image: url('../img/img1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 80%;
+  margin: 10px 10%;
+}
+
+.descHead {
+  font-size: 33px;
+  font-family: Poppins;
+  color: rgba(255, 255 ,255, 0.7);
+}
+
+.main {
+  font-size: 49px;
+  font-family: Poppins;
+  color: rgb(255, 255 ,255);
+}
+
+blockquote {
+  font-family: Poppins;
+  color: rgba(255, 255 ,255, 0.4);
+}
+
+.introHead {
+  font-size: 28px;
+  color: red;
+}
+
+.intro {
+  font-family: Poppins;
+  color: rgba(255, 255 ,255, 0.5);
+}
