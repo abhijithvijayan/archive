@@ -54,7 +54,7 @@ blockquote {
 }
 
 .my-qt {
-  margin-top: 120px;
+  margin-top: 105px;
 }
 
 ul {
@@ -73,16 +73,15 @@ li a {
   color: rgba(255, 255 ,255, 0.8);
   border: 1px dotted white;  
   display: inline-block;
-  padding: 14px;
+  padding: 15px;
   width: 110px;
-  overflow: hidden;
   text-align: center;
 }
 
 li a:hover {
   font-size: 18px;
   color: white;
-  width: 125px;
+  width: 120px;
 }
 
 .hr {
