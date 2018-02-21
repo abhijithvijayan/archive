@@ -8,9 +8,10 @@ file 'LICENSE.txt', which is part of this source code package.
 */
 
 body {
-  background-color: #000;
+ /* background:linear-gradient(rgba(97, 98 ,116 , .5), rgba(97, 98 ,116 , .5)), url('../img/img2.jpeg');  */
   background-image: url('../img/img2.jpeg'); 
   background-size: cover;
+  background-color: #000;
   background-repeat: no-repeat;  
 }
 
@@ -44,7 +45,7 @@ blockquote {
 #about {
   font-family: 'Bree Serif', serif;
   font-size: 28px;
-  color: red;
+  color: violet;
   text-decoration: none;
 }
 
@@ -61,14 +62,14 @@ ul {
   list-style-type: none;
 }
 
-li {
+.nav li {
   float: right;
   padding: 4px;
   font-family: Poppins;
   font-size: 15px;
 }
 
-li a {
+.nav li a {
   text-decoration: none;
   color: rgba(255, 255 ,255, 0.8);
   border: 1px dotted white;  
@@ -78,7 +79,7 @@ li a {
   text-align: center;
 }
 
-li a:hover {
+.nav li a:hover {
   font-size: 16px;
   color: white;
   width: 110px;
@@ -88,4 +89,19 @@ li a:hover {
   width :50%;
   float: left;
   text-align: center;
+}
+
+.icons li a {
+  color: rgba(255, 255 ,255, 0.5);
+  font-size: 33px;
+  float: left;
+  padding: 13px;
+}
+
+.icons li a:hover {
+  color: rgb(255, 255 ,255);
+}
+
+.faw {
+  margin-top: 120px;
 }
