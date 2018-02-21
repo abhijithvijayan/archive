@@ -37,7 +37,7 @@ body {
 blockquote {
   font-family: Poppins;
   color: rgba(255, 255 ,255, 0.4);
-  width: 32%;
+  width: 50%;
   margin: 15px 3%;
 }
 
@@ -82,6 +82,7 @@ li a:hover {
 }
 
 .hr {
-  width :36%;
+  width :40%;
   float: left;
+  margin-left: -2%;
 }
