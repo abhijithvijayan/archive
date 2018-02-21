@@ -9,9 +9,9 @@ file 'LICENSE.txt', which is part of this source code package.
 
 body {
   background-color: #000;
- /* background-image: url('../img/img1.jpeg'); 
+  background-image: url('../img/img2.jpeg'); 
   background-size: cover;
-  background-repeat: no-repeat;  */
+  background-repeat: no-repeat;  
 }
 
 .container {
@@ -36,7 +36,7 @@ body {
 
 blockquote {
   font-family: Poppins;
-  color: rgba(255, 255 ,255, 0.4);
+  color: rgba(255, 255 ,255, 0.5);
   width: 50%;
   margin: 15px 3%;
 }
@@ -50,7 +50,7 @@ blockquote {
 
 .intro {
   font-family: 'Raleway', sans-serif;
-  color: rgba(255, 255 ,255, 0.5);
+  color: rgba(255, 255 ,255, 0.6);
 }
 
 .my-qt {
@@ -65,7 +65,7 @@ li {
   float: right;
   padding: 4px;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 li a {
@@ -74,14 +74,14 @@ li a {
   border: 1px dotted white;  
   display: inline-block;
   padding: 15px;
-  width: 110px;
+  width: 105px;
   text-align: center;
 }
 
 li a:hover {
-  font-size: 18px;
+  font-size: 16px;
   color: white;
-  width: 120px;
+  width: 110px;
 }
 
 .hr {
