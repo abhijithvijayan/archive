@@ -9,34 +9,39 @@ file 'LICENSE.txt', which is part of this source code package.
 
 body {
   background-color: #000;
-  background-image: url('../img/img1.jpeg');
+ /* background-image: url('../img/img1.jpeg'); 
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;  */
 }
 
 .container {
-  width: 80%;
-  margin: 10px 10%;
+  width: 90%;
+  margin: 10px 5%;
 }
 
 .descHead {
   font-size: 33px;
   font-family: Poppins;
   color: rgba(255, 255 ,255, 0.7);
+  margin-top: 20px;
+  padding-top: 120px;
 }
 
 .main {
-  font-size: 50px;
+  font-size: 49px;
   font-family: Poppins;
   color: rgb(255, 255 ,255);
+
 }
 
 blockquote {
   font-family: Poppins;
   color: rgba(255, 255 ,255, 0.4);
+  width: 32%;
+  margin: 15px 3%;
 }
 
-.introHead {
+.about {
   font-family: 'Bree Serif', serif;
   font-size: 28px;
   color: red;
@@ -45,4 +50,37 @@ blockquote {
 .intro {
   font-family: 'Raleway', sans-serif;
   color: rgba(255, 255 ,255, 0.5);
+}
+
+.my-qt {
+  margin-top: 120px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: right;
+  padding: 4px;
+  font-family: Poppins;
+  font-size: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: rgba(255, 255 ,255, 0.8);
+  border: 1px solid white;  
+  display: inline-block;
+  padding: 14px;
+}
+
+li a:hover {
+  font-size: 23px;
+  color: white;
+}
+
+.hr {
+  width :36%;
+  float: left;
 }
