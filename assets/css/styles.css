@@ -6,34 +6,101 @@ file 'LICENSE.txt', which is part of this source code package.
     Created on : ‎February ‎18, ‎2018, ‏‎9:21:51 AM
     Author     : abhijithvijayan
 */
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
 body {
- /* background:linear-gradient(rgba(97, 98 ,116 , .5), rgba(97, 98 ,116 , .5)), url('../img/img2.jpeg');  */
+ /* background:linear-gradient(rgba(97, 98 ,116 , .5), rgba(97, 98 ,116 , .5)), url('../img/img2.jpeg');
   background-image: url('../img/img2.jpeg'); 
-  background-size: cover;
+  background-size: cover;   */
   background-color: #000;
   background-repeat: no-repeat;  
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 .container {
-  width: 90%;
-  margin: 10px 5%;
-}
-
-.descHead {
-  font-size: 33px;
-  font-family: Poppins;
-  color: rgba(255, 255 ,255, 0.7);
-  margin-top: 20px;
-  padding-top: 120px;
+  width: 80%;
+  margin: 10px 10%;
 }
 
 .main {
   font-size: 49px;
-  font-family: Poppins;
+  font-family: 'Montserrat', sans-serif;
   color: rgb(255, 255 ,255);
-
+  margin-top: 2%;
 }
+
+/* Both the lists */
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ---NAVIGATION BAR--- */
+
+.nav li {
+  float: right;
+  padding: 0.5%;
+  font-family: Poppins;
+  font-size: 15px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: rgba(255, 255 ,255, 0.8);
+  border: 1px dotted white;  
+  display: inline-block;
+  padding: 15px;
+  width: 105px;
+  text-align: center;
+}
+
+.nav li a:hover {
+  font-size: 16px;
+  color: white;
+  width: 110px;
+}
+
+/* ---SOCIAL ICONS--- */
+
+.icons li {
+  display: inline-block;
+}
+
+.icons li a {
+  color: rgba(255, 255 ,255, 0.5);
+  font-size: 18px;
+  padding: 0 10px;
+  display: block;
+}
+
+.icons li a:hover {
+  color: rgb(255, 255 ,255);
+}
+
+.two {
+  position: absolute;
+  top: 35%;
+}
+
+
+/* -------------------------------------- */
+
+.hr {
+  width :50%;
+  float: left;
+  text-align: center;
+}
+
+
+/* --------------------------------------
 
 blockquote {
   font-family: Poppins;
@@ -58,50 +125,5 @@ blockquote {
   margin-top: 70px;
 }
 
-ul {
-  list-style-type: none;
-}
 
-.nav li {
-  float: right;
-  padding: 4px;
-  font-family: Poppins;
-  font-size: 15px;
-}
-
-.nav li a {
-  text-decoration: none;
-  color: rgba(255, 255 ,255, 0.8);
-  border: 1px dotted white;  
-  display: inline-block;
-  padding: 15px;
-  width: 105px;
-  text-align: center;
-}
-
-.nav li a:hover {
-  font-size: 16px;
-  color: white;
-  width: 110px;
-}
-
-.hr {
-  width :50%;
-  float: left;
-  text-align: center;
-}
-
-.icons li a {
-  color: rgba(255, 255 ,255, 0.5);
-  font-size: 33px;
-  float: left;
-  padding: 13px;
-}
-
-.icons li a:hover {
-  color: rgb(255, 255 ,255);
-}
-
-.faw {
-  margin-top: 80px;
-}
+ -------------------------------------- */
