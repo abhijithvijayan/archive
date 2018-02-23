@@ -30,6 +30,7 @@ body {
 
 .main {
   font-size: 49px;
+  font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   color: rgb(255, 255 ,255);
   margin-top: 2%;
@@ -47,7 +48,7 @@ ul {
 
 .nav li {
   float: right;
-  padding: 0.5%;
+  padding: 1%;
   font-family: Poppins;
   font-size: 15px;
 }
@@ -94,11 +95,20 @@ ul {
 /* -------------------------------------- */
 
 .hr {
-  width :50%;
+  width :100%;
   float: left;
   text-align: center;
 }
 
+/* ---TRANSFORMATION--- */
+
+.typewrite { 
+  color: rgba(255, 255 ,255, 0.7);
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-decoration: none;}
 
 /* --------------------------------------
 
