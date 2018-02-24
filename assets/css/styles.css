@@ -33,7 +33,7 @@ body {
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   color: rgb(255, 255 ,255);
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 /* Both the lists */
@@ -69,6 +69,18 @@ ul {
   width: 110px;
 }
 
+/* ---SOCIAL ICONS ALL FADING ON HOVERING--- */
+
+.faw {
+  display: inline-block;
+  height: 25px;
+  padding: 5px;
+}
+
+.faw:hover a {
+  color: rgba(255, 255 ,255, 0.35);
+}
+
 /* ---SOCIAL ICONS--- */
 
 .icons li {
@@ -76,8 +88,8 @@ ul {
 }
 
 .icons li a {
-  color: rgba(255, 255 ,255, 0.5);
-  font-size: 18px;
+  color: rgba(255, 255 ,255, 0.6);
+  font-size: 17px;
   padding: 0 10px;
   display: block;
 }
@@ -88,9 +100,8 @@ ul {
 
 .two {
   position: absolute;
-  top: 35%;
+  top: 33%;
 }
-
 
 /* -------------------------------------- */
 
@@ -99,17 +110,19 @@ ul {
   float: left;
 }
 
-/* ---TRANSFORMATION--- */
+/* ---JS EFFECT--- */
 
 .typewrite { 
   color: rgba(255, 255 ,255, 0.7);
   font-family: Montserrat;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 19px;
   letter-spacing: 2px;
-  text-decoration: none;}
+  text-decoration: none;
+}
 
 /* --------------------------------------
+
 
 blockquote {
   font-family: Poppins;
