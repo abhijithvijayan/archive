@@ -9,13 +9,13 @@ file 'LICENSE.txt', which is part of this source code package.
 html {
   margin: 0;
   padding: 0;
-
+  height: 98%;
+  width: 100%
 }
 
 body {
- /* background:linear-gradient(rgba(97, 98 ,116 , .5), rgba(97, 98 ,116 , .5)), url('../img/img2.jpeg');
-  background-image: url('../img/img2.jpeg'); 
-  background-size: cover;   */
+  background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/img1.jpeg');
+  background-size: cover;  
   background-color: #000;
   background-repeat: no-repeat;  
   margin: 0;
@@ -32,6 +32,7 @@ body {
   font-size: 49px;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1.7px;
   color: rgb(255, 255 ,255);
   margin-top: 1%;
 }
@@ -95,7 +96,7 @@ ul {
 }
 
 .icons li a:hover {
-  color: rgb(255, 255 ,255);
+  color: rgba(255, 255 ,255, 0.95);
 }
 
 .two {
