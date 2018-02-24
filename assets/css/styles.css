@@ -37,6 +37,12 @@ body {
   margin-top: 1%;
 }
 
+@media screen and (max-width: 55em) {
+	.main {
+		font-size: 3.5em;
+  }
+}
+
 /* Both the lists */
 
 ul {
@@ -122,17 +128,14 @@ ul {
   text-decoration: none;
 }
 
-/* --------------------------------------
-
+/* ---ABOUT.html--- */
 
 blockquote {
   font-family: Poppins;
   color: rgba(255, 255 ,255, 0.5);
-  width: 50%;
-  margin: 15px 3%;
 }
 
-#about {
+.aboutHead {
   font-family: 'Bree Serif', serif;
   font-size: 28px;
   color: violet;
@@ -144,9 +147,3 @@ blockquote {
   color: rgba(255, 255 ,255, 0.6);
 }
 
-.my-qt {
-  margin-top: 70px;
-}
-
-
- -------------------------------------- */
