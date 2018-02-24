@@ -97,7 +97,7 @@ ul {
 .hr {
   width : 480px;
   float: left;
-  text-align: center;
+  margin-right: 10%;
 }
 
 /* ---TRANSFORMATION--- */
