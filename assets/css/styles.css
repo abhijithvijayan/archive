@@ -6,21 +6,39 @@ file 'LICENSE.txt', which is part of this source code package.
     Created on : ‎February ‎18, ‎2018, ‏‎9:21:51 AM
     Author     : abhijithvijayan
 */
-html {
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
   margin: 0;
   padding: 0;
-  height: 98%;
-  width: 100%
+  border: 0;
 }
 
 body {
-  background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/img1.jpeg');
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/img1.jpeg');
   background-size: cover;  
   background-color: #000;
   background-repeat: no-repeat;  
-  margin: 0;
-  padding: 0;
   height: 100%;
+  padding: 6em 4em 4em 0;
+}
+
+@media screen and (max-width:500px) {
+      /* For mobile phones: */
+
+  body {
+    padding: 5em 1.25em 1.25em 1.25em;
+  }
+}
+
+@media screen and (max-width:800px) {
+      /* For tablets: */
+
+  body {
+    padding: 5em 2em 2em 2em;
+  }
 }
 
 .container {
@@ -28,28 +46,44 @@ body {
   margin: 10px 10%;
 }
 
-.main {
+.main3 {
+  position: absolute;
+  top: 33%;
+}
+
+/* ------------------------------------------- */
+
+.header h1 {
   font-size: 3.25em;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1.7px;
   color: rgb(255, 255 ,255);
-  margin: -0.1em 0 0.55em 0;    /* top right bottom left */
+  margin: 0 0 0.55em 0;    /* top right bottom left */
 }
 
 /* ---RESPONSIVE--- */
 
-@media screen and (max-width: 736px) {
-	.main {
-		font-size: 2em;
+@media screen and (max-width: 800px) {
+    /* For tablets: */
+
+	.header h1 {
+    font-size: 2.25em;
+    letter-spacing: 1px;
   }
 }
 
-@media screen and (max-width: 480px) {
-  .main {
-    margin: 0 0 1em 0;
+@media screen and (max-width: 500px) {
+    /* For mobile phones: */
+
+  .header h1 {
+    font-size: 1.8em;
+    letter-spacing: 1.1px;
+    margin: 0 0 1em 0;   /* top right bottom left */
   }
 }
+
+/* ------------------------------------------- */
 
 /* Both the lists */
 
@@ -63,36 +97,37 @@ ul {
 
 .nav li {
   float: right;
-  padding: 4px;
+  display: inline;
+  padding: 5px;
   font-family: Poppins;
   font-size: 15px;
 }
 
-.nav li a {
+.nav ul a {
   text-decoration: none;
   color: rgba(255, 255 ,255, 0.8);
   border: 1px dotted white;  
-  display: inline-block;
   padding: 15px;
   width: 105px;
   text-align: center;
 }
 
-.nav li a:hover {
+.nav ul a:hover {
   font-size: 16px;
   color: white;
   width: 110px;
 }
 
+/* ------------------------------------------- */
+
 /* ---SOCIAL ICONS ALL FADING ON HOVERING--- */
 
-.faw {
+.footer {
   display: inline-block;
   height: 25px;
-  padding: 5px;
 }
 
-.faw:hover a {
+.footer:hover a {
   color: rgba(255, 255 ,255, 0.35);
 }
 
@@ -113,17 +148,24 @@ ul {
   color: rgba(255, 255 ,255, 0.95);
 }
 
-.two {
-  position: absolute;
-  top: 33%;
-}
+/* ------------------------------------------- */
 
-/* -------------------------------------- */
+/* ---HORIZONTAL LINE--- */
 
 .hr {
-  width: 86%;
+  width: 100%;
   float: left;
 }
+
+@media screen and (max-width:500px) {
+  /* For mobile phones: */
+
+  .hr {
+    width: 86%;
+  }
+}
+
+/* ------------------------------------------- */
 
 /* ---JS EFFECT--- */
 
@@ -131,10 +173,20 @@ ul {
   color: rgba(255, 255 ,255, 0.7);
   font-family: Montserrat;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 0.6em;
   letter-spacing: 2px;
   text-decoration: none;
 }
+
+@media screen and (max-width:500px) {
+  /* For mobile phones: */
+
+  .typewrite {
+    font-size: 0.5em;
+    letter-spacing: 1.8px;
+  }
+  
+/* ------------------------------------------- */
 
 /* ---ABOUT.html--- */
 
@@ -155,3 +207,4 @@ blockquote {
   color: rgba(255, 255 ,255, 0.6);
 }
 
+/* ------------------------------------------- */
