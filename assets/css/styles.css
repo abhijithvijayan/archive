@@ -21,11 +21,10 @@ body {
   background-size: cover;  
   background-color: #000;
   background-repeat: no-repeat;  
-  height: 100%;
   padding: 6em 4em 4em 0;
 }
 
-@media screen and (max-width:500px) {
+@media only screen and (max-width:360px) {
       /* For mobile phones: */
 
   body {
@@ -33,7 +32,7 @@ body {
   }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:736px) {
       /* For tablets: */
 
   body {
@@ -185,7 +184,7 @@ ul {
     font-size: 0.5em;
     letter-spacing: 1.8px;
   }
-  
+
 /* ------------------------------------------- */
 
 /* ---ABOUT.html--- */
