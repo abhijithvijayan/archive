@@ -21,6 +21,8 @@ body {
   background-size: cover;  
   background-color: #000;
   background-repeat: no-repeat; 
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .container {
@@ -33,7 +35,7 @@ body {
   top: 33%;
 }
 
-/* ------------------------------------------- */
+/* ------------------HOME------------------------- */
 
 .header h1 {
   font-size: 3.25em;
@@ -76,6 +78,11 @@ ul {
 
 /* ---NAVIGATION BAR--- */
 
+nav ul  {
+  display: block;
+  background: green;
+
+}
 .nav li {
   float: right;
   display: inline;
@@ -180,4 +187,9 @@ blockquote {
   color: rgba(255, 255 ,255, 0.6);
 }
 
-/* ------------------------------------------- */
+/* ------------------ABOUT------------------------- */
+
+#about {
+  height: 100vh;
+
+}
