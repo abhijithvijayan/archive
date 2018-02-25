@@ -24,7 +24,7 @@ body {
   padding: 6em 4em 4em 0;
 }
 
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:480px) {
       /* For mobile phones: */
 
   body {
@@ -63,7 +63,7 @@ body {
 
 /* ---RESPONSIVE--- */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 736px) {
     /* For tablets: */
 
 	.header h1 {
@@ -72,7 +72,7 @@ body {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
     /* For mobile phones: */
 
   .header h1 {
@@ -156,7 +156,7 @@ ul {
   float: left;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:480px) {
   /* For mobile phones: */
 
   .hr {
@@ -177,7 +177,7 @@ ul {
   text-decoration: none;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:480px) {
   /* For mobile phones: */
 
   .typewrite {
