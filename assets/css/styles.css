@@ -8,62 +8,17 @@ file 'LICENSE.txt', which is part of this source code package.
 */
 
 html, body {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
   margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-body {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/img1.jpeg');
-  background-size: cover;  
-  background-color: #000;
-  background-repeat: no-repeat; 
-  background-position: center;
-  background-attachment: fixed;
 }
 
 .container {
   width: 80%;
-  margin: 10px 10%;
+  margin: 0 10%;
 }
 
 .main3 {
   position: absolute;
   top: 33%;
-}
-
-/* ------------------HOME------------------------- */
-
-.header h1 {
-  font-size: 3.25em;
-  font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 1.7px;
-  color: rgb(255, 255 ,255);
-  margin: 0 0 0.55em 0;    /* top right bottom left */
-}
-
-/* ---RESPONSIVE--- */
-
-@media screen and (max-width: 736px) {
-    /* For tablets: */
-
-	.header h1 {
-    font-size: 2.25em;
-    letter-spacing: 1px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-    /* For mobile phones: */
-
-  .header h1 {
-    font-size: 1.8em;
-    letter-spacing: 1.1px;
-  }
 }
 
 /* ------------------------------------------- */
@@ -78,11 +33,10 @@ ul {
 
 /* ---NAVIGATION BAR--- */
 
-nav ul  {
-  display: block;
-  background: green;
-
+.nav {
+  padding-top: 5%;
 }
+
 .nav li {
   float: right;
   display: inline;
@@ -165,31 +119,85 @@ nav ul  {
     font-size: 0.5em;
     letter-spacing: 1.8px;
   }
+}
 
-/* ------------------------------------------- */
 
-/* ---ABOUT.html--- */
+/* ------------------HOME------------------ */
 
-blockquote {
-  font-family: Poppins;
-  color: rgba(255, 255 ,255, 0.5);
+#home {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/img1.jpeg');
+  background-size: cover;  
+  background-color: #000;
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-attachment: fixed;
+} 
+
+
+.header h1 {
+  font-size: 3.25em;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1.7px;
+  color: rgb(255, 255 ,255);
+  margin: 0 0 0.55em 0;    /* top right bottom left */
+}
+
+/* ---RESPONSIVE--- */
+
+@media screen and (max-width: 736px) {
+    /* For tablets: */
+
+	.header h1 {
+    font-size: 2.25em;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+    /* For mobile phones: */
+
+  .header h1 {
+    font-size: 1.8em;
+    letter-spacing: 1.1px;
+  }
+}
+
+/* ------------------ABOUT------------------ */
+
+#about {
+  height: 100vh;
+  background-color: #000;
+}
+
+.content_inner {
+  text-align: center; 
+  height: 100vh;
+  background-color: #fff;
 }
 
 .aboutHead {
+  padding-top: 190px;
   font-family: 'Bree Serif', serif;
-  font-size: 28px;
-  color: violet;
+  font-weight: 700; 
+  font-size: 3.25em;
+  letter-spacing: 3px;
+  color: #000;
   text-decoration: none;
+}
+
+blockquote {
+  font-family: Poppins;
+  color: rgba(0, 0 ,0, 0.5);
+  font-size: 1em;
+  margin-top: -15px;
 }
 
 .intro {
   font-family: 'Raleway', sans-serif;
-  color: rgba(255, 255 ,255, 0.6);
+  color: rgba(0, 0 ,0, 0.8);
+  font-size: 1.25em;
 }
 
-/* ------------------ABOUT------------------------- */
-
-#about {
-  height: 100vh;
-
-}
+/* ------------------------------------------- */
