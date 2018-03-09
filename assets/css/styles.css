@@ -50,8 +50,8 @@ ul {
   display: inline-block;
   color: rgba(255, 255 ,255, 0.7);
   border: 1px solid rgba(255, 255 ,255, 0.7);  
-  padding: 15px;
-  width: 90px;
+  padding: 10px;
+  width: 80px;
   text-align: center;
 }
 
@@ -187,7 +187,7 @@ ul {
 
 .content_inner {
   text-align: center; 
-  height: 100vh;
+  height: 50vh;
   background-color: #fff;
 }
 
@@ -214,34 +214,14 @@ blockquote {
   font-size: 1.25em;
 }
 
-.linkedIn {
-  padding-top: 5%;
-  float: left;
-  width: 33%;
-}
-
 @media screen and (max-width: 480px) {
   /* For mobile phones: */
-  #about {
-    height: 230vh;
-  }
-
-  .content_inner {
-    height: 230vh;
-  }
 
   .aboutHead {
     font-size: 2.25em;
     letter-spacing: 1px;
     padding: 15px;
   }
-
-  .linkedIn {
-    padding-top: 5%;
-    clear: left;
-    width: 100%;
-  }
-
 }
 
 /* ------------------------------------------- */
