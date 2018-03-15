@@ -9,6 +9,7 @@ file 'LICENSE.txt', which is part of this source code package.
 
 html, body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -17,85 +18,110 @@ html, body {
 }
 
 .main3 {
-  position: absolute;
-  top: 33%;
+  padding-top: 250px;
 }
 
 /* ------------------------------------------- */
 
-/* Both the lists */
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
 /* ---NAVIGATION BAR--- */
 
-.nav {
+.nav ul {
+  list-style-type: none;
   padding-top: 5%;
+  position: fixed;
 }
 
 .nav li {
-  float: right;
-  display: inline-block;
-  padding: 5px;
+  float: left;
   font-family: Poppins;
   font-size: 15px;
 }
 
-.nav ul a {
-  text-decoration: none;
+.nav ul li a {
   display: inline-block;
-  color: rgba(255, 255 ,255, 0.7);
-  border: 1px solid rgba(255, 255 ,255, 0.7);  
-  padding: 10px;
-  width: 80px;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: rgba(255, 255 ,255, 0.7); 
   text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
-.nav ul a:hover {
-  color: white;
-  background-color: #000;
-  border: 1px dotted #000;  
+.nav li a:hover {
+  color: #fff;
 }
 
-@media screen and (max-width: 480px) {
-  /* For mobile phones: */
-  .nav li {
-    width: 45%;
-    
-  }
+.nav ul li a, .nav ul li a:after, .nav ul li a:before {
+  transition: all .5s;
+}
+
+.obj:hover a {
+  color: rgba(255, 255 ,255, 0.35);
 }
 
 /* ------------------------------------------- */
 
-/* ---SOCIAL ICONS ALL FADING ON HOVERING--- */
+/* Single underline effect */
 
-.footer {
-  display: inline-block;
-  height: 25px;
+.stroke ul li a{
+  position: relative;
 }
 
-.footer:hover a {
+.stroke ul li a:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+
+.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+/* ------------------------------------------- */
+
+/* ---ALL SOCIAL ICONS FADING ON HOVERING--- */
+
+
+.obj1 ul li a, .obj1 a:after, .obj1 a:before {
+  transition: all .5s;
+}
+
+.obj1 {
+  display: inline-block;
+}
+
+.obj1:hover a {
   color: rgba(255, 255 ,255, 0.35);
 }
 
 /* ---SOCIAL ICONS--- */
 
-.icons li {
-  display: inline-block;
+.social ul {
+  float: left;
+  list-style-type: none;
 }
 
-.icons li a {
+.social ul li {
+  float: left;
+}
+
+.social li a {
   color: rgba(255, 255 ,255, 0.6);
-  font-size: 17px;
-  padding: 0 10px;
+  font-size: 20px;
+  padding: 5px 10px;
   display: block;
 }
 
-.icons li a:hover {
+/* ---EACH SOCIAL ICON ON HOVERING--- */
+
+.social li a:hover {
   color: rgba(255, 255 ,255, 0.95);
 }
 
@@ -104,7 +130,7 @@ ul {
 /* ---HORIZONTAL LINE--- */
 
 .hr {
-  width: 100%;
+  width: 55%;
   float: left;
 }
 
@@ -114,19 +140,23 @@ ul {
 
 .typewrite { 
   color: rgba(255, 255 ,255, 0.7);
-  font-family: Montserrat;
-  font-weight: 400;
-  font-size: 0.6em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 0.7em;
   letter-spacing: 2px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width:480px) {
   /* For mobile phones: */
 
   .typewrite {
-    font-size: 0.75em;
+    font-size: 0.55em;
     letter-spacing: 1.8px;
+  }
+    .hr {
+      width: 100%;
   }
 }
 
@@ -135,7 +165,7 @@ ul {
 
 #home {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/img1.jpeg');
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/bg.jpeg');
   background-size: cover;  
   background-color: #000;
   background-repeat: no-repeat; 
@@ -145,8 +175,10 @@ ul {
 
 
 .header h1 {
+  clear: left;
   font-size: 3.25em;
   font-weight: 700;
+  text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1.7px;
   color: rgb(255, 255 ,255);
@@ -186,31 +218,31 @@ ul {
 }
 
 .content_inner {
+  padding-top: 150px;
   text-align: center; 
-  height: 50vh;
-  background-color: #fff;
+  background-color: transparent;
 }
 
 .aboutHead {
   padding-top: 100px;
   margin-top: 0;
-  font-family: 'Bree Serif', serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700; 
   font-size: 3.25em;
   letter-spacing: 3px;
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
 blockquote {
   font-family: Poppins;
-  color: rgba(0, 0 ,0, 0.5);
+  color: rgba(255, 255 ,255, 0.5);
   font-size: 1em;
 }
 
 .intro {
   font-family: 'Raleway', sans-serif;
-  color: rgba(0, 0 ,0, 0.8);
+  color: rgba(255, 255 ,255, 0.8);
   font-size: 1.25em;
 }
 
@@ -225,3 +257,67 @@ blockquote {
 }
 
 /* ------------------------------------------- */
+
+/* ------------------CONTACT------------------ */
+
+#contact {
+  height: 82vh;
+}
+
+@media screen and (max-width: 480px) {
+  /* For mobile phones: */
+  #contact {
+    height: 87vh;
+  }
+  .contactObj1 {
+    font-size: 2.25em;
+    letter-spacing: 1px;
+    padding: 15px; 
+  }
+}
+
+.contactObj1 {
+  padding-top: 100px;
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700; 
+  font-size: 3.25em;
+  letter-spacing: 3px;
+  color: #000;
+  text-decoration: none;
+}
+
+.bd-container h2 {
+  font-size: 40px;
+}
+
+.bd-container a {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.bd-container a:hover {
+  color: #000;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+/* --------------SCROLL BAR------------------- */
+
+::-webkit-scrollbar {
+	width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background: #000;  /* #2F2F31 */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgba(255, 255, 255, 0.6);  /* #2F2F31 */
+  }
+  
+  
