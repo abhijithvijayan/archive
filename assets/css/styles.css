@@ -165,7 +165,7 @@ html, body {
 
 #home {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/bg.jpeg');
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/bg.jpg');
   background-size: cover;  
   background-color: #000;
   background-repeat: no-repeat; 
