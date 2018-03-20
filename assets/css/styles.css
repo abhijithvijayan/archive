@@ -13,12 +13,20 @@ html, body {
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 10%;
 }
 
 .main3 {
   padding-top: 250px;
+}
+
+@media screen and (max-width:480px) {
+  /* For mobile phones: */
+  .container {
+    width: 84%;
+    margin: 0 8%;
+  }
 }
 
 /* ------------------------------------------- */
@@ -115,10 +123,17 @@ html, body {
 .social li a {
   color: rgba(255, 255 ,255, 0.6);
   font-size: 20px;
-  padding: 5px 9px;
+  padding: 5px 10px;
   display: block;
 }
 
+@media screen and (max-width:480px) {
+  /* For mobile phones: */
+.social li a {
+  font-size: 18px;
+  padding: 5px 8.5px;
+}
+}
 /* ---EACH SOCIAL ICON ON HOVERING--- */
 
 .social li a:hover {
