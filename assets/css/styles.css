@@ -67,6 +67,12 @@ html, body {
   color: rgba(255, 255 ,255, 0.35);
 }
 
+@media screen and (max-width: 480px) {
+  /* For mobile phones: */
+  .nav ul {
+    padding-left: 0px;
+  }
+}
 /* ------------------------------------------- */
 
 /* Single underline effect */
@@ -129,13 +135,14 @@ html, body {
 
 @media screen and (max-width:480px) {
   /* For mobile phones: */
-.social li a {
-  font-size: 18px;
-  padding: 5px 8px;
-}
-.obj1 {
-  height: 50px;
-}
+  
+  .social li a {
+    font-size: 18px;
+    padding: 5px 8px;
+  }
+  .obj1 {
+    height: 48px;
+  }
 }
 
 
@@ -228,10 +235,10 @@ html, body {
 @media screen and (max-width: 360px) {
   /* For mobile phones: */
 
-.header h1 {
-  font-size: 1.7em;
-  letter-spacing: 1.1px;
-}
+  .header h1 {
+    font-size: 1.7em;
+    letter-spacing: 1.1px;
+  }
 }
 /* ------------------ABOUT------------------ */
 
