@@ -131,9 +131,13 @@ html, body {
   /* For mobile phones: */
 .social li a {
   font-size: 18px;
-  padding: 5px 3px 8px 8px;
+  padding: 5px 8px;
+}
+.obj1 {
+  height: 50px;
 }
 }
+
 
 /* ---EACH SOCIAL ICON ON HOVERING--- */
 
