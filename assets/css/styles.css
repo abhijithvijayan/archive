@@ -148,7 +148,7 @@ h1 {
 
 #footer .contact li a {
 	font-family: 'Roboto', sans-serif;
-	font-size: 0.8em;
+	font-size: 0.85em;
 	color: rgba(255, 255, 255, 0.5);
 	text-decoration: none;
 	padding: 0 0.75em 0 0;
@@ -206,13 +206,22 @@ h1 {
   	  font-size: 1.7em;
       letter-spacing: 1px;
    }
+
+   #footer {
+	 bottom: 2em;
+	 left: 0px;
+	}
 }
 
 @media screen and (max-width: 736px) {
     /* For tablets: */
  	
  	#footer {
-	  bottom: 3.5em;
+	  bottom: 2em;
 	  left: 0px;
 	}
+
+	#allThree {
+   	 padding-top: 70px;
+   }
 }
