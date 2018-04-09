@@ -3,76 +3,96 @@ This file is subject to the terms and conditions defined in
 file 'LICENSE.txt', which is part of this source code package.
 */
 /*
-    Created on : ‎February ‎18, ‎2018, ‏‎9:21:51 AM
+    Created on : ‎Mon, Apr 9 2018 21:22:45
     Author     : abhijithvijayan
 */
 
-html, body {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
+
+body, html {
+	margin: 0;
+	padding: 0;
 }
 
 .container {
-  width: 90%;
-  margin: 0 10%;
+	width: 80%;
+	margin: 10px 10%;
 }
 
-.main3 {
-  padding-top: 250px;
-}
-
-@media screen and (max-width:480px) {
-  /* For mobile phones: */
-  .container {
-    width: 84%;
-    margin: 0 8%;
-  }
+body {
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/bg.jpeg'), no-repeat;
+	background-color: #000;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	overflow: hidden;
 }
 
 /* ------------------------------------------- */
 
-/* ---NAVIGATION BAR--- */
+.header {
+	color: #fff;
+	font-size: 3.3em;
+	font-weight: 700;
+	letter-spacing: 1.7px;
+	font-family: 'Roboto', sans-serif;
+}
 
-.nav ul {
+h1 {
+	margin-bottom: 0;
+}
+
+.info {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 1.18em;
+	font-family: 'Poppins';
+	margin: 1px 0 0 0;
+}
+
+/* ------------------------------------------- */
+
+/* ---SOCIAL ICONS--- */
+
+.social ul {
+  float: right;
   list-style-type: none;
-  padding-top: 5%;
-  position: fixed;
+  padding-left: 0px;
 }
 
-.nav li {
+.social ul li {
   float: left;
-  font-family: Poppins;
-  font-size: 15px;
 }
 
-.nav ul li a {
-  display: inline-block;
-  padding: 10px 10px;
-  text-decoration: none;
-  color: rgba(255, 255 ,255, 0.7); 
-  text-align: center;
-  font-weight: 800;
-  text-transform: uppercase;
+.social li a {
+  color: rgba(255, 255 ,255, 0.6);
+  font-size: 19px;
+  padding: 5px 10px;
+  display: block;
 }
 
-.nav li a:hover {
-  color: #fff;
+/* ---EACH SOCIAL ICON ON HOVERING--- */
+
+.social li a:hover {
+  color: rgba(255, 255 ,255, 0.95);
 }
 
-.nav ul li a, .nav ul li a:after, .nav ul li a:before {
+/* ------------------------------------------- */
+
+/* ---ALL SOCIAL ICONS FADING ON HOVERING--- */
+
+
+.effect ul li a, .effect a:after, .effect a:before {
   transition: all .5s;
 }
 
-.obj:hover a {
+.effect {
+  display: inline-block;
+}
+
+.effect:hover a {
   color: rgba(255, 255 ,255, 0.35);
 }
 
-@media screen and (max-width: 480px) {
-  /* For mobile phones: */
-  .nav ul {
-    padding-left: 0px;
-  }
-}
 /* ------------------------------------------- */
 
 /* Single underline effect */
@@ -100,259 +120,11 @@ html, body {
 
 /* ------------------------------------------- */
 
-/* ---ALL SOCIAL ICONS FADING ON HOVERING--- */
+/* -------- CONTAINER -------- */
 
-
-.obj1 ul li a, .obj1 a:after, .obj1 a:before {
-  transition: all .5s;
+#allThree {
+	text-align: center;
+	padding-top: 160px;
 }
 
-.obj1 {
-  display: inline-block;
-}
-
-.obj1:hover a {
-  color: rgba(255, 255 ,255, 0.35);
-}
-
-/* ---SOCIAL ICONS--- */
-
-.social ul {
-  float: left;
-  list-style-type: none;
-}
-
-.social ul li {
-  float: left;
-}
-
-.social li a {
-  color: rgba(255, 255 ,255, 0.6);
-  font-size: 20px;
-  padding: 5px 10px;
-  display: block;
-}
-
-@media screen and (max-width:480px) {
-  /* For mobile phones: */
-  
-  .social li a {
-    font-size: 18px;
-    padding: 5px 8px;
-  }
-  .obj1 {
-    height: 48px;
-  }
-}
-
-
-/* ---EACH SOCIAL ICON ON HOVERING--- */
-
-.social li a:hover {
-  color: rgba(255, 255 ,255, 0.95);
-}
-
-/* ------------------------------------------- */
-
-/* ---HORIZONTAL LINE--- */
-
-.hr {
-  width: 55%;
-  float: left;
-}
-
-/* ------------------------------------------- */
-
-/* ---JS EFFECT--- */
-
-.typewrite { 
-  color: rgba(255, 255 ,255, 0.7);
-  font-family: "Roboto", sans-serif;
-  font-weight: 800;
-  font-size: 0.7em;
-  letter-spacing: 2px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-@media screen and (max-width:480px) {
-  /* For mobile phones: */
-
-  .typewrite {
-    font-size: 0.55em;
-    letter-spacing: 1.8px;
-  }
-    .hr {
-      width: 100%;
-  }
-}
-
-
-/* ------------------HOME------------------ */
-
-#home {
-  height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/bg.jpg');
-  background-size: cover;  
-  background-color: #000;
-  background-repeat: no-repeat; 
-  background-position: center;
-  background-attachment: fixed;
-} 
-
-
-.header h1 {
-  clear: left;
-  font-size: 3.25em;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 1.7px;
-  color: rgb(255, 255 ,255);
-  margin: 0 0 0.55em 0;    /* top right bottom left */
-}
-
-/* ---RESPONSIVE--- */
-
-@media screen and (max-width: 736px) {
-    /* For tablets: */
-
-	.header h1 {
-    font-size: 2.25em;
-    letter-spacing: 1px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-    /* For mobile phones: */
-
-  .header h1 {
-    font-size: 1.8em;
-    letter-spacing: 1.1px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  /* For mobile phones: */
-
-  .header h1 {
-    font-size: 1.7em;
-    letter-spacing: 1.1px;
-  }
-}
-/* ------------------ABOUT------------------ */
-
-#about {
-  height: 100vh;
-  background-color: #000;
-}
-
-.bd-container {
-  width: 80%;
-  margin: 0 10%;
-}
-
-.content_inner {
-  padding-top: 150px;
-  text-align: center; 
-  background-color: transparent;
-}
-
-.aboutHead {
-  padding-top: 100px;
-  margin-top: 0;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700; 
-  font-size: 3.25em;
-  letter-spacing: 3px;
-  color: #fff;
-  text-decoration: none;
-}
-
-blockquote {
-  font-family: Poppins;
-  color: rgba(255, 255 ,255, 0.5);
-  font-size: 1em;
-}
-
-.intro {
-  font-family: 'Raleway', sans-serif;
-  color: rgba(255, 255 ,255, 0.8);
-  font-size: 1.25em;
-}
-
-@media screen and (max-width: 480px) {
-  /* For mobile phones: */
-
-  .aboutHead {
-    font-size: 2.25em;
-    letter-spacing: 1px;
-    padding: 15px;
-  }
-}
-
-/* ------------------------------------------- */
-
-/* ------------------CONTACT------------------ */
-
-#contact {
-  height: 80vh;
-}
-
-@media screen and (max-width: 480px) {
-  /* For mobile phones: */
-  #contact {
-    height: 75vh;
-  }
-  .contactObj1 {
-    font-size: 2.25em;
-    letter-spacing: 1px;
-    padding: 15px; 
-  }
-}
-
-.contactObj1 {
-  padding-top: 73px;
-  margin-top: 0;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700; 
-  font-size: 3.25em;
-  letter-spacing: 3px;
-  color: #000;
-  text-decoration: none;
-}
-
-.bd-container h2 {
-  font-size: 40px;
-}
-
-.bd-container a {
-  color: rgba(0, 0, 0, 0.9);
-  font-size: 25px;
-  text-decoration: none;
-}
-
-.bd-container a:hover {
-  color: #000;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.6);
-}
-
-/* --------------SCROLL BAR------------------- */
-
-::-webkit-scrollbar {
-	width: 8px;
-  }
-  
-  ::-webkit-scrollbar-track {
-	background: #000;  /* #2F2F31 */
-  }
-  
-  ::-webkit-scrollbar-thumb {
-	background: rgba(255, 255, 255, 0);
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-	background: rgba(255, 255, 255, 0.6);  /* #2F2F31 */
-  }
-  
-  
+/* ------------------------------------------------------------- */
