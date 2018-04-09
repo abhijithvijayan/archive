@@ -20,7 +20,7 @@ body, html {
 
 body {
 	height: 100vh;
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/bg.jpeg'), no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/bg.jpg'), no-repeat;
 	background-color: #000;
 	background-size: cover;
 	background-attachment: fixed;
@@ -127,4 +127,42 @@ h1 {
 	padding-top: 160px;
 }
 
-/* ------------------------------------------------------------- */
+/* ------------------------------------------- */
+
+/* -------- FOOTER -------- */
+
+#footer {
+	display: inline-block;
+	position: absolute;
+	bottom: 4em; 	
+}
+#footer .contact {
+	list-style-type: none;
+}
+
+#footer .contact li {
+	float: left;
+}
+
+#footer .contact li a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.8em;
+	color: rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+	padding: 0 0.75em 0 0;
+	opacity: 0.6;
+}
+
+#footer:hover .contact a {
+  color: rgba(255, 255 ,255, 0.6);
+  opacity: 0.7;
+}
+
+#footer .contact li a:hover {
+	color: rgba(255, 255, 255, 0.7);
+	opacity: 1;
+}
+
+#footer ul li a, #footer a:after, #footer a:before {
+  transition: all .6s;
+}
