@@ -11,7 +11,15 @@ file 'LICENSE.txt', which is part of this source code package.
 body, html {
 	margin: 0;
 	padding: 0;
-	overflow-x: hidden;
+	overflow: hidden;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
 }
 
 .container {
@@ -176,52 +184,62 @@ h1 {
 
 @media screen and (max-width: 480px) {
   /* For mobile phones: */
-  .container {
-	width: 90%;
-	margin: 5px 5%;
+   .container {
+		width: 90%;
+		margin: 5px 5%;
    }
 
    .info {
-   	 font-size: 1em;
-   }
+   		font-size: 1em;
+    }
 
   .header {
-  	font-size: 1.78em;
-    letter-spacing: 1px;
-   }
-
-   #allThree {
-   	 padding-top: 145px;
+ 		font-size: 1.78em;
+    	letter-spacing: 1px;
    }
 
    #footer {
-	 bottom: 2em;
-	 left: 0px;
+		bottom: 2em;
+		left: 0px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+
+	.header {
+ 		font-size: 1.6em;
+    	letter-spacing: 1px;
+    }
+
+	#footer {
+    	bottom: 1.25em;
+		left: 0em;
 	}
 }
 
 @media screen and (max-width: 640px) {
 
     .header {
-  	  font-size: 1.7em;
-      letter-spacing: 1px;
-   }
+  		font-size: 1.7em;
+    	letter-spacing: 1px;
+    }
 
-   #footer {
-	 bottom: 2em;
-	 left: 0px;
+    #footer {
+		bottom: 2em;
+		left: 0px;
 	}
+
+	#allThree {
+   		padding-top: 155px;
+   }
 }
 
 @media screen and (max-width: 736px) {
     /* For tablets: */
  	
  	#footer {
-	  bottom: 2em;
-	  left: 0px;
+		bottom: 2em;
+		left: 0px;
 	}
-
-	#allThree {
-   	 padding-top: 70px;
-   }
+	
 }
