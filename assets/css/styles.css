@@ -200,14 +200,16 @@ h1 {
 	}
 }
 
+@media screen and (max-width: 640px) {
+
+    .header {
+  	  font-size: 1.7em;
+      letter-spacing: 1px;
+   }
+}
 
 @media screen and (max-width: 736px) {
     /* For tablets: */
-
-	.header {
-      font-size: 2.25em;
-      letter-spacing: 1px;
-    }
  	
  	#footer {
 	  bottom: 3.5em;
