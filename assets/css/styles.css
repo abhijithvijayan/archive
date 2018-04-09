@@ -7,19 +7,13 @@ file 'LICENSE.txt', which is part of this source code package.
     Author     : abhijithvijayan
 */
 
+/* ------------------------------------------- */
+
 
 body, html {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-}
-
-html {
-	height: 100%;
-}
-
-body {
-	min-height: 100%;
 }
 
 .container {
@@ -28,6 +22,7 @@ body {
 }
 
 body {
+	
 	height: 100vh;
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/bg.jpeg'), no-repeat;
 	background-color: #000;
@@ -103,7 +98,7 @@ h1 {
 
 /* ------------------------------------------- */
 
-/* Single underline effect */
+/* ---Single underline effect--- */
 
 .stroke ul li a{
   position: relative;
@@ -182,6 +177,7 @@ h1 {
 /* ---NAVIGATION BAR--- */
 
 .nav ul {
+	position: relative;
   list-style-type: none;
 }
 
@@ -279,3 +275,18 @@ h1 {
 
 /* ------------------------------------------- */
 
+/* -------- HOME_PARTICLES -------- */
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+} 
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+} 
+
+/* ------------------------------------------- */
