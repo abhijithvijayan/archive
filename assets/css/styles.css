@@ -11,6 +11,7 @@ file 'LICENSE.txt', which is part of this source code package.
 body, html {
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 
 .container {
@@ -25,7 +26,6 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
-	overflow-y: hidden;
 }
 
 /* ------------------------------------------- */
