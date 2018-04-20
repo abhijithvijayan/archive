@@ -13,7 +13,7 @@ file 'LICENSE.txt', which is part of this source code package.
 body, html {
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
+	overflow-y: hidden;
 }
 
 .container {
