@@ -8,8 +8,11 @@ body, html {
 /* ------------------------------------------- */
 
 body {
-    height: 100vh;
     background-color: #fff;
+}
+
+#home {
+    height: 100vh;
 }
 
 /* ------------------------------------------- */
@@ -58,6 +61,7 @@ header h2 a {
 header nav ul {
     float: right;
     list-style-type: none;
+    padding: 0;
 }
 
 header nav li {
@@ -84,3 +88,32 @@ header nav a:hover {
 }
 
 /* ------------------------------------------- */
+
+.internal {
+    margin-top: 17%;
+    padding-top: 10%;
+    font-family: "Karla", sans-serif;
+    font-size : 1.6em;
+    font-weight: bold;
+    color: #0d0d0d;
+
+}
+
+
+#about {
+    height: 100vh;
+}
+
+.icons {
+    height: 35px;
+    width: 35px;
+}
+
+.ico {
+    list-style-type: none;
+}
+
+.ico li {
+    float: left;
+    padding-right: 20px;
+}
