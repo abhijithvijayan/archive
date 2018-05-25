@@ -27,7 +27,7 @@ body {
 header {
     width: 83%;
     top: 0 !important;
-    padding: 30px 13px 0 0;
+    padding: 28px 15px 0 0;
     background-color: #fff;
     position: fixed;
     text-decoration: none;
@@ -125,8 +125,7 @@ header nav a:hover {
 /* ------------------------------------------- */
 
 #about {
-    height: 100vh;
-    background: #fff;
+    height: 80vh;
 }
 
 /* ------------------------------------------- */
@@ -152,6 +151,7 @@ header nav a:hover {
     font-family: "Karla", sans-serif;
     color: #0d0d0d;
     margin-top: 30px;
+    font-size: 1.8em;
 }
 
 .info {
@@ -164,6 +164,7 @@ header nav a:hover {
 }
 
 #about h2 {
+    margin-top: 30px;
     font-family: "Karla", sans-serif;
     color: #0d0d0d;
 }
@@ -184,3 +185,5 @@ header nav a:hover {
     background-color: #00cc33;
     color: #fff;
 }
+
+/* ------------------------------------------- */
