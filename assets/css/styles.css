@@ -187,3 +187,25 @@ header nav a:hover {
 }
 
 /* ------------------------------------------- */
+
+@media screen and (max-width: 736px) {
+    .quote {
+        font-size: 1.32em;
+    }
+}
+
+@media and screen (max-width: 640px) {
+    .quote {
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .quote {
+        font-size: 1.25em;
+        padding-bottom: 6px;
+    }
+    #scroll p {
+        padding-top: 5px;
+    }
+}
