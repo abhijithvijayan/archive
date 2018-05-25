@@ -12,7 +12,7 @@ body {
 }
 
 #home {
-    height: 100vh;
+    height: 72vh;
 }
 
 /* ------------------------------------------- */
@@ -97,7 +97,7 @@ header nav a:hover {
     color: #0d0d0d;
 }
 
-.socialIcons ul {
+#socialIcons ul {
     float: right;
     list-style-type: none;
     padding-left: 0;
@@ -105,22 +105,22 @@ header nav a:hover {
     padding-top: 50px;
 }
 
-.socialIcons ul li {
+#socialIcons ul li {
     float: left;
     padding-left: 20px;
 }
 
-.socialIcons ul li a {
+#socialIcons ul li a {
     font-size: 34px;
     color: #0d0d0d;
     padding: 5px 5px;
 }
 
-.socialIcons ul li a:hover {
+#socialIcons ul li a:hover {
     color: #00cc33;
 }
 
-/* ------------------------------------------- */
+/* ------------------------------------------- 
 
 #about {
     height: 100vh;
@@ -128,3 +128,9 @@ header nav a:hover {
 }
 
 /* ------------------------------------------- */
+
+#scroll {
+    font-family: "Roboto Mono", cursive;
+    text-align: center;
+    color: #b3b2b3;
+}
