@@ -27,7 +27,7 @@ body {
 header {
     width: 83%;
     top: 0 !important;
-    padding: 28px 15px 0 0;
+    padding: 25px 15px 0 0;
     background-color: #fff;
     position: fixed;
     text-decoration: none;
@@ -188,7 +188,10 @@ header nav a:hover {
 
 /* ------------------------------------------- */
 
-@media screen and (max-width: 736px) {
+/*
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* For Low Resolution Tablets, Mobiles (Landscape) 
     .quote {
         font-size: 1.32em;
         padding-top: 50px;
@@ -196,15 +199,23 @@ header nav a:hover {
     #scroll p {
         padding-top: 5px;
     }
-}
+}  */
 
-@media and screen (max-width: 640px) {
+@media (min-width: 320px) and (max-width: 480px) {
+    /* For Most of the Smartphones Mobiles (Portrait) */
     .quote {
         font-size: 1.25em;
-        padding-top: 50px;
+        padding: 50px 0;
+    }
+    #scroll p {
+        padding-top: 10px;
+    }
+    header h2 {
+        font-size: 1.7em;
     }
 }
 
+/*
 @media screen and (max-width: 360px) {
     .quote {
         font-size: 1.25em;
@@ -213,7 +224,7 @@ header nav a:hover {
     #scroll p {
         padding-top: 5px;
     }
-    header h2 {
-        font-size: 1.6em;
-    }
+
 }
+
+*/
