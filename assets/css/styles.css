@@ -224,7 +224,7 @@ header nav a:hover {
 
 @media screen and (max-width: 640px) {
     .quote {
-        font-size: 5.4em;
+        font-size: 1.4em;
     }
     #socialIcons ul {
         padding-top: 45px;
