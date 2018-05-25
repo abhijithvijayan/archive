@@ -97,6 +97,8 @@ header nav a:hover {
     color: #0d0d0d;
 }
 
+/* ------------------------------------------- */
+
 #socialIcons ul {
     float: right;
     list-style-type: none;
@@ -129,8 +131,10 @@ header nav a:hover {
 
 /* ------------------------------------------- */
 
-#scroll {
+#scroll p {
+    padding-top: 30px; 
     font-family: "Roboto Mono", cursive;
     text-align: center;
     color: #b3b2b3;
+    clear: both;
 }
