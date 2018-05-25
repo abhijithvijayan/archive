@@ -27,7 +27,7 @@ body {
 header {
     width: 83%;
     top: 0 !important;
-    padding: 30px 10px 0 0;
+    padding: 30px 13px 0 0;
     background-color: #fff;
     position: fixed;
     text-decoration: none;
@@ -60,7 +60,7 @@ header h2 a {
 header nav ul {
     float: right;
     list-style-type: none;
-    padding: 0;
+    padding-left: 0px;
 }
 
 header nav li {
@@ -88,32 +88,35 @@ header nav a:hover {
 
 /* ------------------------------------------- */
 
-.internal {
-    margin-top: 25px;
-    padding-top: 25%;
+.quote {
+    margin-top: 160px;
+    padding: 100px 0;
     font-family: "Karla", sans-serif;
     font-size : 1.6em;
     font-weight: bold;
     color: #0d0d0d;
 }
 
-.internal ul {
+.socialIcons ul {
     float: right;
     list-style-type: none;
+    padding-left: 0;
+    margin-top: 50px;
+    padding-top: 50px;
 }
 
-.internal ul li {
+.socialIcons ul li {
     float: left;
     padding-left: 20px;
 }
 
-.internal ul li a {
+.socialIcons ul li a {
     font-size: 34px;
     color: #0d0d0d;
     padding: 5px 5px;
 }
 
-.internal ul li a:hover {
+.socialIcons ul li a:hover {
     color: #00cc33;
 }
 
@@ -121,6 +124,7 @@ header nav a:hover {
 
 #about {
     height: 100vh;
+    background: #0d0d0d;
 }
 
 /* ------------------------------------------- */
