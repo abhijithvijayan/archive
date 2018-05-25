@@ -12,7 +12,7 @@ body {
 }
 
 #home {
-    height: 72vh;
+    height: 85vh;
 }
 
 /* ------------------------------------------- */
@@ -35,7 +35,7 @@ header {
 
 header h2 {
     font-family: "Roboto Mono", cursive;
-    font-size: 2em;
+    font-size: 1.98em;
     font-weight: bold;
     margin: 0;
     float: left;
@@ -122,11 +122,11 @@ header nav a:hover {
     color: #00cc33;
 }
 
-/* ------------------------------------------- 
+/* ------------------------------------------- */
 
 #about {
     height: 100vh;
-    background: #0d0d0d;
+    background: #fff;
 }
 
 /* ------------------------------------------- */
@@ -137,4 +137,50 @@ header nav a:hover {
     text-align: center;
     color: #b3b2b3;
     clear: both;
+}
+
+/* ------------------------------------------- */
+
+#about h1 {
+    font-family: "Roboto Mono", cursive;
+    color: #b3b2b3;
+    text-transform: uppercase;
+    font-size: 3.5em;
+}
+
+#about p {
+    font-family: "Karla", sans-serif;
+    color: #0d0d0d;
+    margin-top: 30px;
+}
+
+.info {
+    color: #00cc33;
+    text-decoration: none;
+}
+
+.info:hover {
+    text-decoration: underline;
+}
+
+#about h2 {
+    font-family: "Karla", sans-serif;
+    color: #0d0d0d;
+}
+
+.buttons {
+    font-family: "Karla", sans-serif;
+    text-decoration: none;
+    background-color: #e5e5e4;
+    color: #b3b2b3;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 7px 11px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: #00cc33;
+    color: #fff;
 }
