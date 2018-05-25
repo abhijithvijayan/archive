@@ -224,10 +224,13 @@ header nav a:hover {
 
 @media screen and (max-width: 640px) {
     .quote {
-        margin-top: 145px;
+        margin-top: 135px;
         font-size: 1.4em;
     }
     #socialIcons ul {
-        padding-top: 45px;
+        padding-top: 43px;
+    }
+    #scroll p {
+        padding-top: 20px;
     }
 }
