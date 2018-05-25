@@ -188,18 +188,21 @@ header nav a:hover {
 
 /* ------------------------------------------- */
 
-/*
-
 @media (min-width: 481px) and (max-width: 767px) {
-    /* For Low Resolution Tablets, Mobiles (Landscape) 
+    /* For Low Resolution Tablets, Mobiles (Landscape) */
     .quote {
-        font-size: 1.32em;
-        padding-top: 50px;
+        padding: 20px 0 0 0;
+        font-size: 1.45em;
+        margin-top: 80px;
     }
     #scroll p {
         padding-top: 5px;
     }
-}  */
+    #socialIcons ul {
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+}  
 
 @media (min-width: 320px) and (max-width: 480px) {
     /* For Most of the Smartphones Mobiles (Portrait) */
@@ -213,18 +216,9 @@ header nav a:hover {
     header h2 {
         font-size: 1.8em;
     }
+    #socialIcons ul {
+        margin-top: 25px;
+        padding-top: 25px;
+    }
 }
 
-/*
-@media screen and (max-width: 360px) {
-    .quote {
-        font-size: 1.25em;
-        padding-bottom: 6px;
-    }
-    #scroll p {
-        padding-top: 5px;
-    }
-
-}
-
-*/
