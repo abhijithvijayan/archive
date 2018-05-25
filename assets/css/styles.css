@@ -207,11 +207,11 @@ header nav a:hover {
 @media (min-width: 320px) and (max-width: 480px) {
     /* For Most of the Smartphones Mobiles (Portrait) */
     .quote {
-        font-size: 1.25em;
+        font-size: 1.3em;
         padding: 40px 0;
     }
     #scroll p {
-        padding-top: 8px;
+        padding-top: 4px;
     }
     header h2 {
         font-size: 1.8em;
@@ -222,3 +222,11 @@ header nav a:hover {
     }
 }
 
+@media screen and (max-width: 736px) {
+    .quote {
+        font-size: 1.4em;
+    }
+    #socialIcons ul {
+        padding-top: 45px;
+    }
+}
