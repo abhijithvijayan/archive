@@ -125,7 +125,7 @@ header nav a:hover {
 /* ------------------------------------------- */
 
 #about {
-    height: 80vh;
+    height: 85vh;
 }
 
 /* ------------------------------------------- */
@@ -188,6 +188,12 @@ header nav a:hover {
 
 /* ------------------------------------------- */
 
+footer p{
+    padding-bottom: 10px;
+}
+
+/* ------------------------------------------- */
+
 @media (min-width: 481px) and (max-width: 767px) {
     /* For Low Resolution Tablets, Mobiles (Landscape) */
     .quote {
@@ -220,6 +226,9 @@ header nav a:hover {
         margin-top: 25px;
         padding-top: 25px;
     }
+    #about p {
+        font-size: 1.5em;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -233,4 +242,9 @@ header nav a:hover {
     #scroll p {
         padding-top: 15px;
     }
+    #about p {
+        font-size: 1.5em;
+    }
 }
+
+/* ------------------------------------------- */
