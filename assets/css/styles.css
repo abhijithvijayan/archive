@@ -27,7 +27,7 @@ body {
 header {
     width: 83%;
     top: 0 !important;
-    padding-top: 20px;
+    padding-top: 15px;
     background-color: #fff;
     position: fixed;
     text-decoration: none;
@@ -35,7 +35,7 @@ header {
 
 header h2 {
     font-family: "Roboto Mono", cursive;
-    padding-bottom: 15px;
+    padding-bottom: 13px;
     font-size: 2em;
     font-weight: bold;
     margin: 0;
