@@ -136,6 +136,7 @@ header nav a:hover {
     font-family: "Roboto Mono", cursive;
     text-align: center;
     color: #b3b2b3;
+    font-weight: bold;
     clear: both;
 }
 
@@ -219,6 +220,7 @@ footer p{
     }
     #scroll p {
         padding-top: 4px;
+        font-size: 1.1em;
     }
     header h2 {
         font-size: 1.8em;
@@ -228,7 +230,7 @@ footer p{
         padding-top: 25px;
     }
     #about p {
-        font-size: 1.5em;
+        font-size: 1.46em;
     }
     header {
         position: absolute;  /* For scrolling the header in mobile view */
@@ -247,7 +249,7 @@ footer p{
         padding-top: 15px;
     }
     #about p {
-        font-size: 1.5em;
+        font-size: 1.46em;
     }
     header {
         position: absolute;  /* For scrolling the header in mobile view */
