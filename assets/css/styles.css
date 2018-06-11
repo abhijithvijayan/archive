@@ -219,6 +219,9 @@ footer p{
         margin-top: 5px;
         padding-top: 5px;
     }
+    #home {
+        height: 100vh;
+    }
 }  
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -245,7 +248,7 @@ footer p{
         position: absolute;  /* For scrolling the header in mobile view */
     }
     #home {
-        height: 100vh;
+        height: 87vh;
     }
 }
 
