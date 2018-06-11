@@ -227,8 +227,9 @@ footer p{
 @media (min-width: 320px) and (max-width: 480px) {
     /* For Most of the Smartphones Mobiles (Portrait) */
     .quote {
-        font-size: 1.3em;
+        font-size: 1.2em;
         padding: 40px 0;
+        margin-top: 15vh !important;
     }
     #scroll p {
         padding-top: 4px;
@@ -248,7 +249,7 @@ footer p{
         position: absolute;  /* For scrolling the header in mobile view */
     }
     #home {
-        height: 87vh;
+        height: 100vh;
     }
 }
 
