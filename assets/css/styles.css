@@ -6,7 +6,7 @@ body, html {
 }
 
 html, body, header, nav, section, div,
-h1, h2, p, a, ul, li, 
+h1, h2, p, a, ul, li, button,
 span {
     transition: all .2s ease-out;
 }
@@ -177,9 +177,12 @@ header nav a:hover {
     color: #0d0d0d;
 }
 
-.buttons {
+.button {
     font-family: "Karla", sans-serif;
+    border: none;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
     background-color: #e5e5e4;
     color: #b3b2b3;
     font-weight: bold;
@@ -189,7 +192,7 @@ header nav a:hover {
     cursor: pointer;
 }
 
-.buttons:hover {
+.button:hover {
     background-color: #00cc33;
     color: #fff;
 }
@@ -240,6 +243,9 @@ footer p{
     }
     header {
         position: absolute;  /* For scrolling the header in mobile view */
+    }
+    #home {
+        height: 100vh;
     }
 }
 
