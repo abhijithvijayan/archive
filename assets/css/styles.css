@@ -248,17 +248,23 @@ footer p{
     }
     header nav ul {
         width: 100%;
+        text-align: center;
     }
     header nav ul li {
-        width: 33%;
-        padding-left: 0;
+        width: 25%;
+        padding-left: 6.25%;
         margin-left: 0;
+
+    }
+    header nav ul a:hover {
+        color: #00cc33;
+        border-color: #00cc33;
     }
     header nav ul li a {
         font-weight: bold;
         font-size: 15px;
-        display: inline-block;
-        padding: 5px 15px;
+        display: block;
+        padding: 5px;
         border: .11em solid #fff;
         border-radius: 4px;
         color: #fff; 
