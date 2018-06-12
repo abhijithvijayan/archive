@@ -24,14 +24,14 @@ body {
 /* ------------------------------------------- */
 
 .container {
-    width: 83%;
-    margin: 10px 8.5%;
+    width: 84%;
+    margin: 10px 8%;
 }
 
 /* ------------------------------------------- */
 
 header {
-    width: 83%;
+    width: 84%;
     top: 0 !important;
     padding-top: 15px;
     background-color: #fff;
@@ -117,6 +117,7 @@ header nav a:hover {
 #socialIcons ul li {
     float: left;
     padding-left: 20px;
+    text-align: center;
 }
 
 #socialIcons ul li a {
@@ -241,6 +242,11 @@ footer p{
     #socialIcons ul {
         margin-top: 25px;
         padding-top: 25px;
+        width: 100%;
+    }
+    #socialIcons ul li {
+        width: 25%; 
+        padding-left: 0;
     }
     #about p {
         font-size: 1.46em;
