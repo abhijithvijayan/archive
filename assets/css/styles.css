@@ -249,6 +249,7 @@ footer p{
     header nav ul {
         width: 100%;
         text-align: center;
+        padding: 3px 0;
     }
     header nav ul li {
         width: 25%;
@@ -264,7 +265,7 @@ footer p{
         font-weight: bold;
         font-size: 15px;
         display: block;
-        padding: 5px;
+        padding: 6px 5px;
         border: .11em solid #fff;
         border-radius: 4px;
         color: #fff; 
