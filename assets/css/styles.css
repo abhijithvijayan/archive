@@ -110,8 +110,8 @@ header nav a:hover {
     float: right;
     list-style-type: none;
     padding-left: 0;
-    margin-top: 50px;
-    padding-top: 50px;
+    margin-bottom: 50px;
+
 }
 
 #socialIcons ul li {
@@ -154,6 +154,7 @@ header nav a:hover {
     color: #b3b2b3;
     text-transform: uppercase;
     font-size: 3.5em;
+    margin-top: 0;
 }
 
 #about p {
@@ -272,8 +273,6 @@ footer p{
     }
     
     #socialIcons ul {
-        margin-top: 25px;
-        padding-top: 25px;
         width: 100%;
     }
     #socialIcons ul li {
@@ -289,18 +288,12 @@ footer p{
     header {
         position: absolute;  /* For scrolling the header in mobile view */
     }
-    #home {
-        height: 100vh;
-    }
 }
 
 @media screen and (max-width: 640px) {
     .quote {
         margin-top: 135px;
         font-size: 1.4em;
-    }
-    #socialIcons ul {
-        padding-top: 41px;
     }
     #scroll p {
         padding-top: 15px;
