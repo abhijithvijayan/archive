@@ -228,6 +228,8 @@ footer p{
     }
 }  
 
+/* ------------------------------------------- */   
+
 @media (min-width: 320px) and (max-width: 480px) {
     /* For Most of the Smartphones Mobiles (Portrait) */
     .quote {
@@ -287,28 +289,42 @@ footer p{
     #about p {
         font-size: 1.46em;
     }
+    #about h1 {
+        font-size: 3.3em;
+    }
     header {
         position: absolute;  /* For scrolling the header in mobile view */
     }
 }
 
-@media screen and (max-width: 640px) {
-    .quote {
-        margin-top: 135px;
-        font-size: 1.4em;
+/* --------------------GALAXY S5---------------------- */
+
+@media screen and (min-width: 321px) and (max-width: 360px) {
+    #about p {
+        font-size: 1.23em;
     }
-    #scroll p {
-        padding-top: 15px;
+}
+
+/* ----------------PIXEL 2, 2XL------------------------- */
+
+@media screen and (min-width: 376px) and (max-width: 412px) {
+    .quote {
+        padding: 50px 0;
+        font-size: 1.5em;
+        padding-bottom: 50px;
     }
     #about p {
-        font-size: 1.46em;
+        font-size: 1.44em;
     }
-    header {
-        position: absolute;  /* For scrolling the header in mobile view */
+    #home {
+        height: 80vh;
+    }
+    #about {
+       height: 90vh;
     }
 }
 
-/* ------------------------------------------- */
+/* ----------------IPHONE 5/SE-------------------------- */
 
 @media screen and (max-width: 320px) {
     .quote {
@@ -323,13 +339,13 @@ footer p{
         font-size: 3em;
     }
 }
-@media screen and (max-width: 360px) {
-    #about p {
-        font-size: 1.23em;
-    }
-}
 
-@media screen and (max-width: 375px) {
+/* --------------------IPHONE 6,7,8, X----------------- */
+
+@media screen and (min-width: 361px) and (max-width: 375px) {
+    .quote h1 {
+        font-size: 1.42em;
+    }
     #about p {
         font-size: 1.3em;
     }
@@ -338,11 +354,9 @@ footer p{
     }
 } 
 
-@media screen and (max-width: 412px) {
-    .quote {
-        padding: 50px 0;
-    }
-    #about p {
-        font-size: 1.43em;
-    }
+
+/* ----------------IPHONE 6,7,8 PLUS--------------------------- */
+
+@media screen and (min-width: 413px) and (max-width: 414px) {
+
 }
