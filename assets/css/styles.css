@@ -333,7 +333,16 @@ footer p{
     #about p {
         font-size: 1.3em;
     }
-    .scroll p {
-        padding-top: 20px;
+    #scroll p {
+        padding-top: 30px;
     }
 } 
+
+@media screen and (max-width: 412px) {
+    .quote {
+        padding: 50px 0;
+    }
+    #about p {
+        font-size: 1.43em;
+    }
+}
