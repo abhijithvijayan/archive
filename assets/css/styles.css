@@ -104,6 +104,7 @@ header nav a:hover {
     color: #0d0d0d;
 }
 
+
 /* ------------------------------------------- */
 
 #socialIcons ul {
@@ -139,6 +140,7 @@ header nav a:hover {
 /* ------------------------------------------- */
 
 #scroll p {
+    margin-top: 100px;
     padding-top: 30px; 
     font-family: "Roboto Mono", cursive;
     text-align: center;
@@ -307,3 +309,31 @@ footer p{
 }
 
 /* ------------------------------------------- */
+
+@media screen and (max-width: 320px) {
+    .quote {
+        font-size: 1.1em;
+    }
+    #about p {
+        font-size: 1.11em;
+        margin-top: 22px;
+    }
+    #about h1{
+        margin-bottom: 0;
+        font-size: 3em;
+    }
+}
+@media screen and (max-width: 360px) {
+    #about p {
+        font-size: 1.23em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #about p {
+        font-size: 1.3em;
+    }
+    .scroll p {
+        padding-top: 20px;
+    }
+} 
