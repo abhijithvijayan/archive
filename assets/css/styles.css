@@ -211,6 +211,9 @@ footer p{
 
 @media (min-width: 481px) and (max-width: 767px) {
     /* For Low Resolution Tablets, Mobiles (Landscape) */
+    .ico-hid {
+        visibility: hidden;
+    }
     .quote {
         padding: 20px 0 0 0;
         font-size: 1.45em;
@@ -232,6 +235,9 @@ footer p{
 
 @media (min-width: 320px) and (max-width: 480px) {
     /* For Most of the Smartphones Mobiles (Portrait) */
+    .ico-hid {
+        visibility: hidden;
+    }
     .quote {
         font-size: 1.2em;
         padding: 40px 0;
