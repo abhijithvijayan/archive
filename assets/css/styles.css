@@ -203,9 +203,16 @@ header nav a:hover {
 
 /* ------------------------------------------- */
 
-footer p{
-    padding-bottom: 10px;
+#footer {
+    height: 100vh;
+    background-color: #000;
 }
+
+#f1, #f2, #f3 {
+    width: 33%;
+}
+
+
 
 /* ------------------------------------------- */
 
@@ -236,7 +243,10 @@ footer p{
 @media (min-width: 320px) and (max-width: 480px) {
     /* For Most of the Smartphones Mobiles (Portrait) */
     .ico-hid {
-        visibility: hidden;
+        display: none;
+    }
+    #footer {
+        display: none;
     }
     .quote {
         font-size: 1.2em;
