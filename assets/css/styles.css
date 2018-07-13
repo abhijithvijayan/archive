@@ -115,17 +115,20 @@ header nav a:hover {
 }
 
 #scroll a span {
-  position: absolute;
-  width: 30px;
-  height: 50px;
-  margin-left: -15px;
-  border: 2px solid grey;
-  border-radius: 50px;
-  box-sizing: border-box;
+	position: relative;
+	display: block;
+	width: 25px;
+	height: 40px;
+	margin: 0 auto 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid grey;
+	border-radius: 25px;
 }
 #scroll a span::before {
   position: absolute;
-  top: 10px;
+  top: 6px;
   left: 50%;
   content: '';
   width: 6px;
