@@ -100,9 +100,8 @@ header nav a:hover {
 #scroll {
     text-align: center;
     clear: both;
-    margin-top: 100px;
-    padding-top: 30px; 
-
+    padding-top: 6%; 
+    margin-top: 6%;
 }
 
 #scroll a span {
@@ -194,7 +193,7 @@ header nav a:hover {
 
 /* ------------------------------------------- */
 #about {
-    height: 85vh;
+    height: 100%;
 }
 #about h1 {
     font-family: "Roboto Mono", cursive;
@@ -261,16 +260,14 @@ header nav a:hover {
         font-size: 1.45em;
         margin-top: 80px;
     }
-    #scroll p {
+ /*   #scroll p {
         padding-top: 5px;
     }
     #socialIcons ul {
         margin-top: 5px;
         padding-top: 5px;
     }
-    #home {
-        height: 100vh;
-    }
+  */
 }  
 
 /* ------------------------------------------- */   
@@ -367,12 +364,6 @@ header nav a:hover {
     #about p {
         font-size: 1.44em;
     }
-    #home {
-        height: 80vh;
-    }
-    #about {
-       height: 90vh;
-    }
 }
 
 /* ----------------IPHONE 5/SE-------------------------- */
@@ -399,9 +390,6 @@ header nav a:hover {
     }
     #about p {
         font-size: 1.3em;
-    }
-    #scroll p {
-        padding-top: 26px;
     }
 } 
 
