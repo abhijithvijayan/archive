@@ -95,18 +95,79 @@ header nav a:hover {
 }
 
 /* --------------SCROLL-BUTTON-------------- */
-
-#scroll p {
- /*   margin-top: 100px;
-    padding-top: 30px; */
-
-    bottom: 0;
-    position: inherit;
+/*
+#scroll a {
+    margin-top: 100px;
+    padding-top: 30px; 
     font-family: "Roboto Mono", cursive;
     text-align: center;
     color: #b3b2b3;
     font-weight: bold;
     clear: both;
+}       */
+
+#scroll {
+    text-align: center;
+    clear: both;
+    margin-top: 100px;
+    padding-top: 30px; 
+
+}
+
+#scroll a span {
+  position: absolute;
+  width: 30px;
+  height: 50px;
+  margin-left: -15px;
+  border: 2px solid grey;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+#scroll a span::before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: grey;
+  border-radius: 100%;
+  -webkit-animation: sdb10 2s infinite;
+  animation: sdb10 2s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb10 {
+  0% {
+    -webkit-transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb10 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 /* ---------------SOCIAL-ICONS--------------- */
