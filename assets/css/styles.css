@@ -3,6 +3,7 @@
 body, html {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 html, body, header, nav, section, div,
 h1, h2, p, a, ul, li, button,
@@ -77,12 +78,12 @@ header nav a:hover {
     background-color: black;
 }
 
-/* ------------------------------------------- */
+/* -------------------HOME------------------- */
 #home {
     height: 100%;
 }
 .quote {
-    margin-top: 43vh;
+    margin-top: 42vh;
   /*  padding-bottom: 8em;  */
     font-family: "Karla", sans-serif;
     font-size : 1.6em;
@@ -93,7 +94,22 @@ header nav a:hover {
     margin: 0;
 }
 
-/* ------------------------------------------- */
+/* --------------SCROLL-BUTTON-------------- */
+
+#scroll p {
+ /*   margin-top: 100px;
+    padding-top: 30px; */
+
+    bottom: 0;
+    position: inherit;
+    font-family: "Roboto Mono", cursive;
+    text-align: center;
+    color: #b3b2b3;
+    font-weight: bold;
+    clear: both;
+}
+
+/* ---------------SOCIAL-ICONS--------------- */
 #follow {
     padding-top: 14%;
 }
@@ -101,7 +117,7 @@ header nav a:hover {
     float: right;
     list-style-type: none;
     padding-left: 0;
-    margin-bottom: 50px;
+  /*  margin-bottom: 50px;   */
 
 }
 #socialIcons ul li {
@@ -122,19 +138,6 @@ header nav a:hover {
 #about {
     height: 85vh;
 }
-
-/* ------------------------------------------- */
-#scroll p {
-    margin-top: 100px;
-    padding-top: 30px; 
-    font-family: "Roboto Mono", cursive;
-    text-align: center;
-    color: #b3b2b3;
-    font-weight: bold;
-    clear: both;
-}
-
-/* ------------------------------------------- */
 #about h1 {
     font-family: "Roboto Mono", cursive;
     color: #b3b2b3;
