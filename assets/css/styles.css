@@ -29,6 +29,7 @@ header {
     padding-top: 15px;
     background-color: #fff;
     position: fixed;
+    z-index: 1;    /* to position the header to the top of all */
     text-decoration: none;
 }
 header h2 {
@@ -95,16 +96,6 @@ header nav a:hover {
 }
 
 /* --------------SCROLL-BUTTON-------------- */
-/*
-#scroll a {
-    margin-top: 100px;
-    padding-top: 30px; 
-    font-family: "Roboto Mono", cursive;
-    text-align: center;
-    color: #b3b2b3;
-    font-weight: bold;
-    clear: both;
-}       */
 
 #scroll {
     text-align: center;
@@ -126,6 +117,7 @@ header nav a:hover {
 	border: 1px solid grey;
 	border-radius: 25px;
 }
+
 #scroll a span::before {
   position: absolute;
   top: 6px;
@@ -140,6 +132,7 @@ header nav a:hover {
   animation: sdb10 2s infinite;
   box-sizing: border-box;
 }
+
 @-webkit-keyframes sdb10 {
   0% {
     -webkit-transform: translate(0, 0);
@@ -156,6 +149,7 @@ header nav a:hover {
     opacity: 0;
   }
 }
+
 @keyframes sdb10 {
   0% {
     transform: translate(0, 0);
