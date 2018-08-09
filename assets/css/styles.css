@@ -211,8 +211,11 @@ header nav a:hover {
 }
 .clg {
     color: #0d0d0d;
-
-    text-decoration: dashed grey underline;
+    /* text-decoration: dashed grey underline;  */
+    text-decoration: none;
+}
+.clg:hover {
+    color: #00cc33;
 }
 .info {
     color: #00cc33;
