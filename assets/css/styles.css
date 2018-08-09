@@ -357,6 +357,9 @@ header nav a:hover {
     #about p {
         font-size: 1.23em;
     }
+    #socialIcons ul li a {
+        font-size: 33px;
+    }
 }
 
 /* ----------------PIXEL 2, 2XL------------------------- */
