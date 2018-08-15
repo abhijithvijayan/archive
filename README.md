@@ -1,2 +1,2 @@
-# abhijithvijayan.github.io
+# abhijithvijayan.gitlab.io
 my website
