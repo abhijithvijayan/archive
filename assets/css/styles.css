@@ -65,11 +65,11 @@ header nav li {
 }
 header nav ul li a {
     font-family: "Karla", sans-serif;
-    font-weight: 700;
+    font-weight: normal;
     display: inline-block;
-    padding: 2px 25px;
-    border: 4px solid #0d0d0d;
-    border-radius: 7px;
+    padding: 4px 25px;
+    border: .089em solid #0d0d0d;
+    border-radius: .25rem;
     text-decoration: none;
     color: #0d0d0d; 
     text-align: center;
