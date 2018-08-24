@@ -337,7 +337,7 @@ header nav a:hover {
         width: 100%;
     }
     #socialIcons ul li {
-        width: 25%; /* change this to 20% for 5 icons in mobile view */
+        width: 20%; /* change this to 25% for 4 icons in mobile view */
         padding-left: 0;
     }
     #socialIcons ul li a {
