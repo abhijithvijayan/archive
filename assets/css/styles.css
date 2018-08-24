@@ -71,7 +71,7 @@ header nav ul li a {
     border: .089em solid #0d0d0d;
     border-radius: .25rem;
     text-decoration: none;
-    color: #0d0d0d; 
+    color: #000; 
     text-align: center;
 }
 header nav a:hover {
