@@ -251,6 +251,13 @@ header nav a:hover {
     padding-bottom: 3em;
 }
 
+footer {
+    text-align: center;
+    font-family: "Karla", sans-serif;
+    color: #b3b2b3;
+    padding-bottom: 2em;
+}
+
 /* ----------------RESPONSIVENESS------------- */
 
 
@@ -352,6 +359,9 @@ header nav a:hover {
     header {
         position: absolute;  /* For scrolling the header in mobile view */
     }
+    footer {
+        padding-bottom: 4.5em;
+    }
 }
 
 /* --------------------GALAXY S5---------------------- */
@@ -366,6 +376,9 @@ header nav a:hover {
     #socialIcons ul li a {
         font-size: 33px;
     }
+    footer {
+        padding-bottom: 4.5em;
+    }
 }
 
 /* ----------------PIXEL 2, 2XL------------------------- */
@@ -378,6 +391,9 @@ header nav a:hover {
     }
     #about p {
         font-size: 1.44em;
+    }
+    footer {
+        padding-bottom: 4.5em;
     }
 }
 
@@ -396,6 +412,9 @@ header nav a:hover {
         margin-bottom: 0;
         font-size: 3em;
     }
+    footer {
+        padding-bottom: 4.5em;
+    }
 }
 
 /* --------------------IPHONE 6,7,8, X----------------- */
@@ -407,6 +426,9 @@ header nav a:hover {
     }
     #about p {
         font-size: 1.3em;
+    }
+    footer {
+        padding-bottom: 4.5em;
     }
 } 
 
