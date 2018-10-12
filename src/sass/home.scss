@@ -1,11 +1,31 @@
 #home {
-    text-align: center;
     background: url('https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 100vh;
     background-color: rgba(255,255,255,.99);
     .content-holder {
-        padding-top: 25vh;
+        min-height: 50em;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .center-content {
+            text-align: center;
+            background-color: rgba(255,255,255,.99);
+            padding: 80px 40px;
+            .content-title {
+                text-transform: uppercase;
+                padding: 2px 20px;
+                text-align: center;
+            }
+            .content-subtitle {
+             
+            }
+        }
     }
+
+
+      
+      
+      
 }
