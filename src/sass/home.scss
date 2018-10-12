@@ -1,7 +1,7 @@
 #home {
     background: url('https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 85vh;
     background-color: rgba(255,255,255,.99);
     .content {
         position: relative;
@@ -11,6 +11,7 @@
         min-height: 100vh;
         justify-content: center;
         align-items: center;
+        z-index: 1;
         ::after {
             position: absolute;
             content: "";
@@ -19,6 +20,7 @@
             border: 1px solid rgba(255,255,255,.96);
             width: calc(100% + 18px);
             height: calc(100% + 18px);
+            z-index: -1;
         }
         .center-inner {
             text-align: center;
@@ -32,7 +34,6 @@
             align-items: center;
             justify-content: center;
             align-content: center;
-            
             .content-title {
                 text-transform: uppercase;
                 padding: 2px 20px;
@@ -40,6 +41,20 @@
             }
             .content-subtitle {
              
+            }
+            .social {
+                list-style-type: none;
+                padding-top: 15px;
+                li {
+                    
+                    a {
+                        color: #000;
+                        font-weight: $font-weight-light;
+                        font-size: 18px;
+                        margin-right: 20px;
+                        
+                    }
+                }
             }
         }
     }
