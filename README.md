@@ -1,8 +1,8 @@
 <div align="center">
-  <a href="https://travis-ci.org/ceadoor/cea.ac.in">
-    <img src="https://api.travis-ci.org/ceadoor/cea.ac.in.svg?branch=master" alt="Travis Build" />
+  <a href="https://travis-ci.org/abhijithvijayan/website">
+    <img src="https://api.travis-ci.org/abhijithvijayan/website.svg?branch=master" alt="Travis Build" />
   </a>
-  <a href="https://github.com/ceadoor/cea.ac.in/blob/master/LICENSE">
+  <a href="https://github.com/abhijithvijayan/website/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" />
   </a>
   <a href="https://nodejs.org/en/download/">
