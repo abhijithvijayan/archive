@@ -9,9 +9,10 @@
 @import "synapse";
 @import "footer";
 
-body {
+html, body {
   background: #fff;
   margin: 0;
+  height: 100%;
 }
 
 section {
