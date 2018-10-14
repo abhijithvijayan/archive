@@ -14,6 +14,16 @@
             width: 100%;
             text-align: center;
             margin-top: 30px;
+            .active {
+                color: #b1b1b1;
+            }
+            .overlay-nav-items {
+                li {
+                    a {
+                        font-size: 18px;
+                    }
+                }                
+            }
         }
         .closebtn {
             color: #000;
@@ -29,8 +39,9 @@
         a {
             padding: 8px;
             font-family: 'Poppins', sans-serif;
+            font-weight: 600;
             text-decoration: none;
-            font-size: 36px;
+            font-size: 26px;
             color: #000;
             display: block;
             transition: 0.3s;                       

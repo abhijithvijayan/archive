@@ -2,20 +2,8 @@
     background: transparent !important;
     margin-top: 10px;
     z-index: 1000;
-    .menu-btn {
-        color: $color-white;
-        font-size: 28px;
-        cursor: pointer;    
-    }
     .navbar-brand {
-        color: $color-white;
-    }
-    .navbar-nav {
-        .nav-item {
-            .nav-link {
-                color: $color-white;
-            }
-        }
+        color: #000;
     }
 }
 .shrink {
@@ -23,16 +11,6 @@
     transition: 0.5s ease;
     margin: 0px;
     .menu-btn {
-        color: #000;
-    }
-    .navbar-brand {
-        color: #000;
-    }
-    .navbar-nav {
-        .nav-item {
-            .nav-link {
-                color: #000;
-            }
-        }
+        color: #000 !important;
     }
 }
