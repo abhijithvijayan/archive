@@ -5,6 +5,7 @@
 @import "components";
 
 @import "navbar";
+@import "wrapper";
 @import "home";
 @import "synapse";
 @import "footer";
@@ -13,8 +14,4 @@ html, body {
   background: #fff;
   margin: 0;
   height: 100%;
-}
-
-section {
-  padding: 0 120px; 
 }

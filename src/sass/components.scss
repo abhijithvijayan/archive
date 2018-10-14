@@ -14,21 +14,11 @@
     font-size: 0.9em;
     line-height: 25px;
 }
-.pb-40 {
-    padding-bottom: 40px;
-}
-.link {
-    text-decoration: none;
-    color: $color-blue;
-    font-weight: $font-weight-semibold;
-    font-size: 0.8em;
-    &:hover {
-      text-decoration: none;
-    }
+.pt-15 {
+    padding-top: 15px;
 }
 .social {
     list-style-type: none;
-    padding-top: 15px;
     li {
         
         a {

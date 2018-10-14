@@ -5,8 +5,20 @@
     bottom: 0;
     width: 100%;
     color: #000;
+    font-family: 'Poppins', sans-serif;
     .uptotop {
         color: rgb(97, 97, 97);
+        padding-top: 10px;
+        float: right;
+        .arrow {
+            margin: 5px;
+            font-size: 17px;            
+            a {
+                color: rgb(97, 97, 97);
+                &:hover {
+                    color: #000;
+                }
+            }
+        }
     }
-    
 }
