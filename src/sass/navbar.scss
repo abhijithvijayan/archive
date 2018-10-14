@@ -1,2 +1,29 @@
 .navbar {
+    background: transparent !important;
+    margin-top: 10px;
+    .navbar-brand {
+        color: $color-white;
+    }
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                color: $color-white;
+            }
+        }
+    }
+}
+.shrink {
+    background: $color-white !important;
+    transition: 0.5s ease;
+    margin: 0px;
+    .navbar-brand {
+        color: #000;
+    }
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                color: #000;
+            }
+        }
+    }
 }
