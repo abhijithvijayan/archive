@@ -13,4 +13,4 @@ $(document).ready(function () {
            $('nav').removeClass('shrink shadow');
         }
     });
-});
+}); 
