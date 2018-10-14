@@ -1,6 +1,12 @@
 .navbar {
     background: transparent !important;
     margin-top: 10px;
+    z-index: 1000;
+    .menu-btn {
+        color: $color-white;
+        font-size: 28px;
+        cursor: pointer;    
+    }
     .navbar-brand {
         color: $color-white;
     }
@@ -16,6 +22,9 @@
     background: $color-white !important;
     transition: 0.5s ease;
     margin: 0px;
+    .menu-btn {
+        color: #000;
+    }
     .navbar-brand {
         color: #000;
     }
