@@ -1,6 +1,6 @@
 <div align="center">
-  <a href="https://travis-ci.org/abhijithvijayan/website">
-    <img src="https://api.travis-ci.org/abhijithvijayan/website.svg?branch=master" alt="Travis Build" />
+  <a href="https://travis-ci.org/abhijithvijayan/abhijithvijayan.me">
+    <img src="https://api.travis-ci.org/abhijithvijayan/abhijithvijayan.me.svg?branch=master" alt="Travis Build" />
   </a>
   <a href="https://github.com/abhijithvijayan/website/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" />
@@ -18,4 +18,4 @@
 
 ## License
 
-Copyright © 2018 [abhijithvijayan](https://github.com/abhijithvijayan) ALL RIGHTS RESERVED, licensed under [MIT](https://github.com/abhijithvijayan/website/blob/master/LICENSE)
+Copyright © 2018 [abhijithvijayan](https://abhijithvijayan.me) ALL RIGHTS RESERVED, licensed under [MIT](https://github.com/abhijithvijayan/website/blob/master/LICENSE)
