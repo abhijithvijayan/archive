@@ -14,8 +14,8 @@
     font-size: 0.9em;
     line-height: 25px;
 }
-.pt-15 {
-    padding-top: 15px;
+.pt-20 {
+    padding-top: 20px;
 }
 .social {
     list-style-type: none;
@@ -33,4 +33,10 @@
 .menu-btn {
     font-size: 23px;
     cursor: pointer;
+    color: $color-white;
+}
+.tab-head {
+    font-size: 13px;
+    letter-spacing: 4px;
+    text-align: center;
 }

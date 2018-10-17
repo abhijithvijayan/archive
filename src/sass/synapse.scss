@@ -1,3 +1,20 @@
 #synapse {
-    
+    padding: 50px 20px;
+    .nav {
+        border: none;
+        padding-bottom: 40px;
+        .nav-item {
+            .nav-link {
+                border: none;
+                text-transform: uppercase;
+                border-radius: 12px;
+                padding: 4px 0;
+                text-align: center;
+                color: $color-black;
+            }
+            .nav-link.active {
+                background-color: #f5f5f5;
+            }
+        }
+    }
 }

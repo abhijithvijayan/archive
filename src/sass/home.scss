@@ -1,7 +1,7 @@
 #home {
-    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('https://images.pexels.com/photos/285814/pexels-photo-285814.jpeg') no-repeat;
-    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('../assets/bg.jpeg') no-repeat;
     height: 100vh;
+    background-size: cover;
     background-color: rgba(255,255,255,.99);
     .content {
         position: relative;
@@ -40,7 +40,13 @@
                 text-align: center;
             }
             .content-subtitle {
-             
+                padding-top: 5px;
+                .code {
+                    & :hover {
+                        color: #a100009d;
+                        cursor: pointer;
+                    }
+                }
             }
             .last-child {
                 margin-right: 0 !important;
