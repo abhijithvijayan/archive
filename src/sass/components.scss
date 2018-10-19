@@ -1,7 +1,7 @@
 .m-head {
-    font-weight: $font-weight-semibold;
-    font-size: 24px;
-    letter-spacing: 8px;
+    font-weight: $font-weight-medium;
+    font-size: 1.5em;
+    letter-spacing: 7px;
     color: $color-black;
 }
 .s-head {
@@ -20,13 +20,11 @@
 .social {
     list-style-type: none;
     li {
-        
         a {
-            color: #000;
-            font-weight: $font-weight-light;
-            font-size: 18px;
-            margin-right: 20px;
-            
+          color: #000;
+          font-weight: $font-weight-light;
+          font-size: 18px;
+          margin-right: 20px; 
         }
     }
 }
