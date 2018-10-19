@@ -20,6 +20,51 @@
         }
     }
     .tab-content {
+        .about-panel {
+            .profile {
+                padding-bottom: 25px;
+            }
+            .about-content {
+                font-family: $font-family-poppins;
+                p, span, a {                    
+                    font-family: $font-family-montessarat;
+                }
+                h4 {
+                    margin-bottom: 20px;
+                    font-family: $font-family-poppins;
+                    font-weight: $font-weight-semibold;
+                }
+                p {
+                    line-height: 1.7;
+                }
+                ul {
+                    margin: 20px 0 0 0;
+                    padding: 0;
+                    list-style-type: none;        
+                    li {
+                        margin-bottom: 9px;
+                    }            
+                }
+                span {
+                    font-weight: $font-weight-semibold;
+                    margin-right: 5px;
+                    padding-left: 5px;
+                }
+                .links {
+                    font-size: 0.8em;
+                    margin-top: 10px;
+                    color: $color-white;
+                    background-color: $color-black;
+                    border: 2px solid $color-black;
+                    border-radius: 0;
+                    padding: 8px 20px;
+                    &:hover {
+                        background-color: $color-white;
+                        color: $color-black;
+                    }
+                }
+            }
+        }
         .skills-overview {
             padding-bottom: 20px;
             p {
