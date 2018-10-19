@@ -11,17 +11,22 @@
                 border-radius: 12px;
                 padding: 4px 12px 4px 15px;
                 color: $color-black;
-                font-family: 'Poppins', sans-serif;
+                font-family: $font-family-poppins;
                 
             }
             .nav-link.active {
-                background-color: #f5f5f5;
+                background-color: $color-grey;
             }
         }
     }
     .tab-content {
         .skills-overview {
             padding-bottom: 20px;
+            p {
+                font-size: 0.9em;
+                line-height: 25px;
+                font-weight: $font-weight-medium;
+            }
         }
         .skills-content {
             .skill-01, .skill-02, .skill-03 {
@@ -36,17 +41,43 @@
                 }
             }
         }
-        .projects-content {
-            position: relative;
-	        display: grid;
-            align-content: center;
-            justify-content: center;
-            align-items: center;
-            .content-holder {
-                .content-inner {
-                    
+        .project-highlights {
+            .content-inner {
+                padding-bottom: 30px;
+            }
+            .projects-content {
+                position: relative;
+                display: grid;
+                align-content: center;
+                justify-content: center;
+                align-items: center;                
+                .content-holder {
+                    h4 {
+                        font-size: 1.1em;
+                        font-family: $font-family-poppins;
+                        font-weight: $font-weight-bold;
+                        letter-spacing: 1px;
+                        padding-bottom: 5px;
+                    }
+                    p {
+                        color: $color-mid-black;
+                        margin-bottom: 0;
+                    }
+                    ul {
+                        padding-top: 8px;
+                        margin-bottom: 30px;
+                        li {
+                            background-color: $color-grey;
+                            color: $color-black;
+                            font-size: 0.7em;
+                            padding: 3px 10px;
+                            text-align: center;
+                            display: inline-block;
+                            border-radius: 12px;
+                        }
+                    }
                 }
             }
-        }
+        } 
     }
 }
