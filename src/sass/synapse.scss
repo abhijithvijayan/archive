@@ -36,5 +36,17 @@
                 }
             }
         }
+        .projects-content {
+            position: relative;
+	        display: grid;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            .content-holder {
+                .content-inner {
+                    
+                }
+            }
+        }
     }
 }
