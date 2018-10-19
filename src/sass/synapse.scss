@@ -19,4 +19,22 @@
             }
         }
     }
+    .tab-content {
+        .skills-overview {
+            padding-bottom: 20px;
+        }
+        .skills-content {
+            .skill-01, .skill-02, .skill-03 {
+                padding: 18px 0;
+                h4 {
+                    color: #BBBBBB;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                }
+                p {
+                    padding-top: 12px;
+                }
+            }
+        }
+    }
 }
