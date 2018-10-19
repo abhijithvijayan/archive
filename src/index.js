@@ -1,5 +1,6 @@
 import 'bootstrap'
 import './sass/main.scss'
+import './loading-bar'
 
 /* For tooltip in social icons */
 
