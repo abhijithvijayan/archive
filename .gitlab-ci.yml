@@ -24,7 +24,6 @@ Build:
       - dist/
   script:
     - npm run build
-    - ls
   only:
     - master
 
@@ -32,7 +31,7 @@ pages:
   stage: deploy
   script:
     - mkdir .public
-    - mv /dist/* public
+    - mv ./dist/* public
   artifacts:
     paths:
       - public
