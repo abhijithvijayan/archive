@@ -8,7 +8,6 @@ stages:
 
 cache:
   paths:
-    - ~/.npm
     - node_modules/
 
 install_dependencies:
@@ -32,7 +31,7 @@ pages:
   stage: deploy
   script:
     - mkdir .public
-    - cp -r * .public
+    - cp -r dist/* .public
     - mv .public public
   artifacts:
     paths:
