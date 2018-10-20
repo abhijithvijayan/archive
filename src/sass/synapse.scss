@@ -4,6 +4,7 @@
         border: none;
         padding-bottom: 40px;
         .nav-item {
+            padding-bottom: 10px;
             .nav-link {
                 border: none;
                 display: inline-block;
@@ -20,6 +21,7 @@
         }
     }
     .tab-content {
+
         .about-panel {
             .profile {
                 padding-bottom: 25px;
@@ -65,6 +67,7 @@
                 }
             }
         }
+
         .skills-overview {
             padding-bottom: 20px;
             p {
@@ -90,6 +93,7 @@
                 }
             }
         }
+
         .project-highlights {
             .content-inner {
                 padding-bottom: 30px;
@@ -128,6 +132,7 @@
                 }
             }
         }
+
         .connect-tab {
             position: relative;
             display: grid;
@@ -135,10 +140,25 @@
             justify-content: center;
             align-items: center; 
             .content-head {
-                padding-bottom: 30px;
+                u {
+                    text-decoration: none;
+                    padding-bottom: 5px;
+                }                
             }
-            .content-inner {
-
+            .content-inner {                
+                margin-top: 30px;
+                .content-holder {
+                    padding: 0 30px;
+                    a {
+                        color: $color-pink;
+                        font-size: 1.4rem;
+                        font-weight: $font-weight-black;
+                        &:hover {
+                            color: $color-blue;
+                            text-decoration: none;
+                        }
+                    }                    
+                }
             }
         } 
     }
