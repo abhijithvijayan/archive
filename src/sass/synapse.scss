@@ -83,6 +83,10 @@
                 }
                 p {
                     padding-top: 12px;
+                    font-weight: $font-weight-medium;
+                }
+                .progress-bar {
+                    background-color: $color-violet;
                 }
             }
         }
