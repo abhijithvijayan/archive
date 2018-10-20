@@ -1,7 +1,4 @@
 <div align="center">
-  <a href="https://travis-ci.org/abhijithvijayan/abhijithvijayan.me">
-    <img src="https://api.travis-ci.org/abhijithvijayan/abhijithvijayan.me.svg?branch=master" alt="Travis Build" />
-  </a>
   <a href="https://github.com/abhijithvijayan/website/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" />
   </a>
