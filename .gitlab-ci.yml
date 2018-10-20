@@ -2,7 +2,6 @@ image: node:latest
 
 stages:
   - installation
-  - test
   - build
   - deploy
 
@@ -18,20 +17,22 @@ install_dependencies:
     paths:
       - node_modules/
 
-test_with_lab:
-  stage: test
-  script: npm test
-
 Build:
   stage: build
+  artifacts:
+    paths:
+      - dist/
   script:
     - npm run build
+    - ls
+  only:
+    - master
 
 pages:
   stage: deploy
   script:
     - mkdir .public
-    - mv ./dist public
+    - mv /dist/* public
   artifacts:
     paths:
       - public
