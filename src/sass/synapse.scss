@@ -65,6 +65,14 @@
                         color: $color-black;
                     }
                 }
+                .tel {
+                    letter-spacing: 2px;
+                    color: $color-pink;
+                    &:hover {
+                        color: $color-blue;
+                        text-decoration: none;
+                    }
+                }
             }
         }
 
