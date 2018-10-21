@@ -14,12 +14,6 @@
             width: 100%;
             text-align: center;
             margin-top: 30px;
-            .active {
-                color: $color-pink;
-                &:hover {
-                    color: $color-blue;
-                }
-            }
             .overlay-nav-items {
                 li {
                     a {
@@ -47,13 +41,13 @@
             font-size: 26px;
             color: #000;
             display: block;
-            transition: 0.3s;                       
-        }
-        &:hover {
-            color: $color-blue;
+            transition: 0.3s;     
+            &:hover {
+                color: $color-blue;
+            } 
+            &:focus {
+                color: $color-pink;
+            }                  
         } 
-        &:focus {
-            color: $color-blue;
-        }   
     }
 }
