@@ -3,6 +3,24 @@
     font-weight: $font-weight-semibold;
     text-transform: uppercase;
     color: $color-black;
+    @media screen and (max-width: $screen-xxs-max) and (min-width: $screen-xxs-min) {
+        font-size: 3rem;
+    }
+    @media screen and (max-width: $screen-xs-max) and (min-width: $screen-xs-min) {
+        font-size: 3.5rem;
+    }
+    @media screen and (max-width: $screen-sm-max) and (min-width: $screen-sm-min) {
+        font-size: 4rem;
+    }    
+    @media screen and (max-width: $screen-md-max) and (min-width: $screen-md-min) {
+        font-size: 4.4rem;
+    }
+    @media screen and (max-width: $screen-lg-max) and (min-width: $screen-lg-min) {
+        font-size: 5rem;
+    }
+    @media screen and (max-width: $screen-xlg-max) and (min-width: $screen-xlg-min) {
+        font-size: 5.2rem;
+    }
 }
 .m-head {
     font-weight: $font-weight-medium;
@@ -22,8 +40,8 @@
 .pt-20 {
     padding-top: 20px;
 }
-.mb-20 {
-    margin-bottom: 30px;
+.mb-10 {
+    margin-bottom: 10px;
 }
 .social {
     list-style-type: none;
