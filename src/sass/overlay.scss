@@ -15,7 +15,10 @@
             text-align: center;
             margin-top: 30px;
             .active {
-                color: #b1b1b1;
+                color: $color-pink;
+                &:hover {
+                    color: $color-blue;
+                }
             }
             .overlay-nav-items {
                 li {
@@ -46,12 +49,11 @@
             display: block;
             transition: 0.3s;                       
         }
-        & :hover {
-            color: #818181;
+        &:hover {
+            color: $color-blue;
         } 
-        & :focus {
-            color: #818181; 
-        }
-                
+        &:focus {
+            color: $color-blue;
+        }   
     }
 }
