@@ -6,6 +6,9 @@
     left: 0;
     .navbar-brand {
         color: rgb(255, 255, 255);
+        &:hover {
+            color: rgb(255, 255, 255);
+        }
     }
 }
 .shrink {
@@ -13,9 +16,6 @@
     transition: 0.5s ease;
     margin: 0px;
     box-shadow: 0 8px 6px -6px rgba(0,0,0,.4);
-    .navbar-brand {
-        color: $color-black;
-    }
     .menu-btn {
         color: #000 !important;
     }

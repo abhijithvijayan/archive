@@ -1,53 +1,16 @@
 #home {
-    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('../assets/bg.jpeg') no-repeat;
     height: 100vh;
     background-size: cover;
     background-color: rgba(255,255,255,.99);
     .content {
         position: relative;
 	    display: grid;
-	    align-content: center;
-	    margin: 0 auto;
         min-height: 100vh;
-        justify-content: center;
         align-items: center;
         .content-inner {
-            text-align: center;
-            background-color: rgba(255,255,255,.99);
-            padding: 80px 40px;
-            width: 460px;
-            grid-area: 1 / 1 / 1 / 1;
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            align-content: center;
-            z-index: 1;
-            ::after {
-                position: absolute;
-                content: "";
-                top: -10px;
-                left: -10px;
-                border: 1px solid rgba(255,255,255,.96);
-                width: calc(100% + 18px);
-                height: calc(100% + 18px);
-                z-index: -1;
-            }
             .content-title {
-                text-transform: uppercase;
-                padding: 2px 20px;
-                text-align: center;
-                letter-spacing: 7px;
             }
-            .content-subtitle {                
-                padding-top: 5px;
-                .code {
-                    & :hover {
-                        color: #a100009d;
-                        cursor: pointer;
-                    }
-                }
+            .content-subtitle {
             }
             .last-child {
                 margin-right: 0 !important;

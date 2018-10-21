@@ -1,5 +1,6 @@
 #synapse {
     padding: 50px 20px;
+    background-color: $color-grey;
     .nav {
         border: none;
         padding-bottom: 40px;
@@ -16,7 +17,7 @@
                 
             }
             .nav-link.active {
-                background-color: $color-grey;
+                background-color: $color-light-grey;
             }
         }
     }
@@ -88,7 +89,7 @@
             .skill-01, .skill-02, .skill-03 {
                 padding: 18px 0;
                 h4 {
-                    color: #BBBBBB;
+                    color: rgb(196, 179, 179);
                     text-transform: uppercase;
                     letter-spacing: 2px;
                 }
@@ -128,7 +129,7 @@
                         padding-top: 8px;
                         margin-bottom: 30px;
                         li {
-                            background-color: $color-grey;
+                            background-color: $color-light-grey;
                             color: $color-black;
                             font-size: 0.7em;
                             padding: 3px 10px;

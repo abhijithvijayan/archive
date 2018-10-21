@@ -1,3 +1,9 @@
+.head {
+    font-size: 4.8rem;
+    font-weight: $font-weight-semibold;
+    text-transform: uppercase;
+    color: $color-black;
+}
 .m-head {
     font-weight: $font-weight-medium;
     font-size: 1.5em;
@@ -21,19 +27,19 @@
 }
 .social {
     list-style-type: none;
-    li {
+    display: inline-block;    
+    li {        
         a {
           color: #000;
           font-weight: $font-weight-light;
           font-size: 18px;
-          margin-right: 20px; 
         }
     }
 }
 .menu-btn {
     font-size: 23px;
     cursor: pointer;
-    color: $color-white;
+    color: $color-black;
 }
 .tab-head {
     font-size: 13px;
