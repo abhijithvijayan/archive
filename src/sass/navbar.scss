@@ -1,14 +1,11 @@
 .navbar {
-    background: transparent !important;
+    background: #fff !important;
     margin-top: 10px;
     z-index: 1000;
     top: 0;
     left: 0;
     .navbar-brand {
-        color: rgb(255, 255, 255);
-        &:hover {
-            color: rgb(255, 255, 255);
-        }
+        margin-right: 0;
     }
 }
 .shrink {
