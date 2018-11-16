@@ -44,7 +44,7 @@
         a {
             padding: 8px;
             font-family: $font-family-poppins;
-            font-weight: 600;
+            font-weight: $font-weight-semibold;
             text-decoration: none;
             display: block;
             transition: all 0.3s ease-out;
@@ -52,7 +52,8 @@
             font-size: 26px;
             color: #000;  
             &:hover {
-                color: $color-blue;
+                color: $color-blue;                
+                font-weight: $font-weight-bold;
             } 
             &:focus {
                 color: $color-pink;
