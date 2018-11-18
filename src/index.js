@@ -20,10 +20,15 @@ $(document).ready(function () {
     });
 }); 
 
-
+/* OVERLAY */
 function openNav() {
     document.getElementById('nav-overlay').style.display = "block"; 
 }
+openNav();
+document.querySelector('.menu-btn').addEventListener('click', openNav);
+
 function closeNav() {
     document.getElementById('nav-overlay').style.display = "none"; 
 }
+closeNav();
+document.querySelector('.closebtn').addEventListener('click', closeNav);
