@@ -1,46 +1,51 @@
 {
-  "name": "Webpack_Sass_Bootstrap",
-  "version": "1.0.0",
-  "description": "",
+  "name": "website",
+  "version": "1.0.1",
+  "description": "<div align=\"center\">\r   <a href=\"https://gitlab.com/abhijithvijayan/abhijithvijayan.gitlab.io/commits/master\">\r     <img alt=\"pipeline status\" src=\"https://gitlab.com/abhijithvijayan/abhijithvijayan.gitlab.io/badges/master/pipeline.svg\" /></a>\r   <a href=\"https://github.com/abhijithvijayan/website/blob/master/LICENSE\">\r     <img src=\"https://img.shields.io/badge/license-MIT-blue.svg\" alt=\"License\" />\r   </a>\r   <a href=\"https://nodejs.org/en/download/\">\r     <img src=\"https://img.shields.io/badge/node%40LTS-%3E%3D8.12.0%20-orange.svg\" alt=\"NodeJS\" />\r   </a>\r   <a href=\"https://www.npmjs.com/get-npm\">\r     <img src=\"https://img.shields.io/badge/npm-%3E%3D6.4.1-lightgrey.svg\" alt=\"npm\" />\r   </a>\r   <a href=\"https://github.com/prettier/prettier\">\r     <img src=\"https://img.shields.io/badge/code_style-prettier-ff69b4.svg\" alt=\"code style: prettier\" />\r   </a>\r </div>",
   "main": "index.js",
   "scripts": {
     "build": "webpack  --mode=production",
     "watch": "webpack --progress --watch  --mode=development",
     "start": "webpack-dev-server --open  --mode=development"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://gitlab.com/abhijithvijayan/abhijithvijayan.gitlab.io"
-  },
-  "bugs": {
-    "url": "https://gitlab.com/abhijithvijayan/abhijithvijayan.gitlab.io/issues"
-  },
-  "keywords": [],
-  "author": "abhijithvijayan",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.1.6",
     "@babel/preset-env": "^7.1.6",
+    "autoprefixer": "^9.4.0",
     "babel-loader": "^8.0.4",
     "clean-webpack-plugin": "^0.1.19",
+    "compression-webpack-plugin": "^2.0.0",
     "css-loader": "^1.0.1",
     "file-loader": "^2.0.0",
     "html-loader": "^0.5.5",
+    "html-srcsets-loader": "^0.5.1",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.4",
     "node-glob": "^1.2.0",
     "node-sass": "^4.10.0",
-    "popper.js": "^1.14.5",
-    "prettier": "^1.15.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
-    "url-loader": "^1.1.2",
+    "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
     "bootstrap": "^4.1.3",
-    "jquery": "^3.3.1"
-  }
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/abhijithvijayan/abhijithvijayan.gitlab.io.git"
+  },
+  "author": "abhijithvijayan",
+  "bugs": {
+    "url": "https://gitlab.com/abhijithvijayan/abhijithvijayan.gitlab.io/issues"
+  },
+  "homepage": "https://gitlab.com/abhijithvijayan/abhijithvijayan.gitlab.io#readme"
 }
