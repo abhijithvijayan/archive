@@ -1,6 +1,6 @@
 <div align="center">
-  <a href="https://gitlab.com/abhijithvijayan/abhijithvijayan.gitlab.io/commits/master">
-    <img alt="pipeline status" src="https://gitlab.com/abhijithvijayan/abhijithvijayan.gitlab.io/badges/master/pipeline.svg" /></a>
+  <!--<a href="https://gitlab.com/abhijithvijayan/abhijithvijayan.gitlab.io/commits/master">-->
+  <!--  <img alt="pipeline status" src="https://gitlab.com/abhijithvijayan/abhijithvijayan.gitlab.io/badges/master/pipeline.svg" /></a>-->
   <a href="https://github.com/abhijithvijayan/website/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" />
   </a>
