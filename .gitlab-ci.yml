@@ -30,8 +30,17 @@ Build:
 pages:
   stage: deploy
   script:
+    - rm -rf .public
     - mkdir .public
     - cp -r ./dist/* .public
+    - cd .public
+    - git remote add origin https://abhijithvijayan:$GITHUB_ACCESS_TOKEN@github.com/abhijithvijayan/website.git
+    - git config user.email "34790378+abhijithvijayan@users.noreply.github.com"
+    - git config --global user.name "abhijithvijayan"
+    - git add -A
+    - git commit -m "Build from $CI_SERVER_NAME $CI_PIPELINE_ID"
+    - git push origin gh-pages
+    - cd ..
     - mv .public public
   artifacts:
     paths:
