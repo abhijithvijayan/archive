@@ -17,4 +17,4 @@
 
 ## License
 
-Copyright © 2018 [abhijithvijayan](https://abhijithvijayan.me) ALL RIGHTS RESERVED, licensed under [MIT](https://github.com/abhijithvijayan/website/blob/master/LICENSE)
+Copyright © 2018 - 19 [abhijithvijayan](https://github.com/abhijithvijayan) ALL RIGHTS RESERVED.
