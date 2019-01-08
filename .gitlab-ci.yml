@@ -33,7 +33,7 @@ pages:
     - mkdir .public
     - cp -r ./dist/* .public
     - git clone --depth 1 https://abhijithvijayan:$GITHUB_ACCESS_TOKEN@github.com/abhijithvijayan/website.git gh-pages
-    - rm -r ghpages/*
+    - rm -r gh-pages/*
     - cp -r ./dist/* gh-pages
     - cd gh-pages
     - git config user.email "34790378+abhijithvijayan@users.noreply.github.com"
