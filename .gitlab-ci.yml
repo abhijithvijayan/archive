@@ -40,7 +40,7 @@ pages:
     - git config --global user.name "abhijithvijayan"
     - git add -A
     - git commit -m "Build from $CI_SERVER_NAME $CI_PIPELINE_ID"
-    - git push origin gh-pages
+    - git push origin master
     - cd ..
     - mv .public public
   artifacts:
