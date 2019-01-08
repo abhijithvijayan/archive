@@ -30,12 +30,12 @@ Build:
 pages:
   stage: deploy
   script:
-    - rm -rf .public
     - mkdir .public
     - cp -r ./dist/* .public
-    - cd .public
-    - git remote rm origin
-    - git remote add origin https://abhijithvijayan:$GITHUB_ACCESS_TOKEN@github.com/abhijithvijayan/website.git
+    - git clone --depth 1 https://abhijithvijayan:$GITHUB_ACCESS_TOKEN@github.com/abhijithvijayan/website.git gh-pages
+    - rm -r ghpages/*
+    - cp -r ./dist/* gh-pages
+    - cd gh-pages
     - git config user.email "34790378+abhijithvijayan@users.noreply.github.com"
     - git config --global user.name "abhijithvijayan"
     - git add -A
