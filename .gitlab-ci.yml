@@ -32,6 +32,7 @@ pages:
   script:
     - mkdir .public
     - cp -r ./dist/* .public
+    - mv .public public
     - git clone --depth 1 https://abhijithvijayan:$GITHUB_ACCESS_TOKEN@github.com/abhijithvijayan/abhijithvijayan.github.io.git gh-pages
     - rm -r gh-pages/*
     - cp -r ./dist/* gh-pages
@@ -41,8 +42,6 @@ pages:
     - git add -A
     - git commit -m "Build from $CI_SERVER_NAME $CI_PIPELINE_ID"
     - git push origin master
-    - cd ..
-    - mv .public public
   artifacts:
     paths:
       - public
