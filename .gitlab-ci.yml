@@ -32,7 +32,7 @@ pages:
   script:
     - mkdir .public
     - cp -r ./dist/* .public
-    - git clone --depth 1 https://abhijithvijayan:$GITHUB_ACCESS_TOKEN@github.com/abhijithvijayan/website.git gh-pages
+    - git clone --depth 1 https://abhijithvijayan:$GITHUB_ACCESS_TOKEN@github.com/abhijithvijayan/abhijithvijayan.github.io.git gh-pages
     - rm -r gh-pages/*
     - cp -r ./dist/* gh-pages
     - cd gh-pages
