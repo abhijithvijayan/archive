@@ -5,7 +5,7 @@ import './loading-bar'
 /* For tooltip in social icons */
 
 $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();   
+    $('[data-toggle="tooltip"]').tooltip({ trigger: 'hover' });
 });
 
 /* Navbar Fit on scroll */
