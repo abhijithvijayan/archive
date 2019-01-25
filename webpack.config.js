@@ -1,12 +1,13 @@
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const CleanWebpackPlugin = require("clean-webpack-plugin");
+const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CompressionPlugin = require('compression-webpack-plugin');
+const CnameWebpackPlugin = require('cname-webpack-plugin');
+const CleanWebpackPlugin = require("clean-webpack-plugin");
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
-const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const globSync = require("glob").sync;
 const webpack = require("webpack");
 const path = require("path");
-const globSync = require("glob").sync;
 
 module.exports = (env, options) => ({
   entry: ["./src/index.js"],
@@ -93,6 +94,9 @@ module.exports = (env, options) => ({
       Popper: ["popper.js", "default"],
       Util: "exports-loader?Util!bootstrap/js/dist/util",
       Dropdown: "exports-loader?Dropdown!bootstrap/js/dist/dropdown"
+    }),
+    new CnameWebpackPlugin({
+      domain: 'abhijithvijayan.in',
     })
   ],
   optimization: {
