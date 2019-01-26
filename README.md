@@ -1,4 +1,4 @@
-<div align="center">
+
   <!--<a href="https://gitlab.com/abhijithvijayan/abhijithvijayan.gitlab.io/commits/master">-->
   <!--  <img alt="pipeline status" src="https://gitlab.com/abhijithvijayan/abhijithvijayan.gitlab.io/badges/master/pipeline.svg" /></a>-->
   <a href="https://github.com/abhijithvijayan/website/blob/master/LICENSE">
@@ -13,7 +13,7 @@
   <a href="https://github.com/prettier/prettier">
     <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg" alt="code style: prettier" />
   </a>
-</div>
+
 
 ## License
 
