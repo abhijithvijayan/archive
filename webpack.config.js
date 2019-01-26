@@ -1,6 +1,5 @@
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const CompressionPlugin = require('compression-webpack-plugin');
 const CnameWebpackPlugin = require('cname-webpack-plugin');
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
@@ -106,9 +105,6 @@ module.exports = (env, options) => ({
             parallel: true,
             sourceMap: false,
             extractComments: false
-        }),
-        new CompressionPlugin({
-            test: /\.js$|\.css(\?.*)?$/i
         }),
         new OptimizeCSSAssetsPlugin({})
     ]
