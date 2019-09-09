@@ -1,0 +1,53 @@
+#contact {
+    .wrapper {
+        max-width: 600px;
+        margin: 0px auto 100px;
+
+        .contact__content--holder {
+            .contact__content--inner {
+                .contact__content--title {
+                    display: block;
+                    position: relative;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    margin: 10px 0px 20px;
+                    white-space: nowrap;
+                    color: $color-white-yellow;
+                    font-size: 16px;
+                    font-family: $font-family-sfmono;
+                    font-weight: normal;
+
+                    &::before {
+                        bottom: 0px;
+                        font-size: 15px;
+                        counter-increment: section;
+                        content: "0"counter(section) ".";
+                        margin-right: 10px;
+                        position: relative;
+                    }
+                }
+
+                .contact__content--head {
+                    font-size: 50px;
+                    margin: 0px 0px 30px;
+                    font-family: $font-family-calibre;
+                    font-weight: $font-weight-semibold;
+                    color: $color-head-white;
+                }
+
+                .contact__content--subtitle {
+                    margin: 0px 0px 15px;
+                    font-size: 17px;
+                    line-height: 1.5;
+                    font-weight: $font-weight-medium;
+                    color: $color-sky-blue;
+                }
+
+                .contact__content--link {
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+}

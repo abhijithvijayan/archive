@@ -2,22 +2,17 @@
 
 @import "fonts";
 @import "variables";
+@import 'reset';
+@import "~hamburgers/_sass/hamburgers/hamburgers.scss";
+
 @import "components";
-@import "loading-bar";
-
-@import "navbar";
-@import "wrapper";
-@import "overlay";
+@import "header";
+@import "slideout";
+@import "sidepanel";
 @import "home";
-@import "synapse";
+@import "about";
+@import "experience";
+@import "projects";
+@import "otherProjects";
+@import "contact";
 @import "footer";
-
-html, body {
-  background: #fff;
-  margin: 0;
-  height: 100%;
-}
-
-body {  
-  font-family: $font-family-montessarat;
-}

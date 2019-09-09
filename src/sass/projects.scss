@@ -1,0 +1,93 @@
+#projects {
+    .wrapper {
+        .project__content--holder {
+            margin-bottom: 100px;
+
+            @media screen and (max-width: 37.5em) {
+                margin-bottom: 50px;
+            }
+
+            .project__image--holder {
+                z-index: 1;
+                border-radius: 2px;
+                transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+
+                .project__image {
+                    position: relative;
+                    mix-blend-mode: multiply;
+                    filter: grayscale(100%) contrast(1) brightness(90%);
+                    border-radius: 3px;
+                    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+
+                    &:hover {
+                        box-shadow: 0 20px 70px -10px $color-shadow, 0 50px 100px 0 $color-shadow;
+                        filter: none;
+                    }
+                }
+            }
+
+            .project__text--holder {
+                .project__featured {
+                    font-size: 14px;
+                    font-weight: normal;
+                    font-family: $font-family-sfmono;
+                    color: $color-white-yellow;
+                    margin-top: 20px;
+                    padding-top: 0px;
+                }
+
+                .project__details--title {
+                    color: $color-blue-white;
+                    font-size: 28px;
+                    font-weight: $font-weight-semibold;
+                    margin-bottom: 20px;
+
+                    &:hover {
+                        color: $color-white-yellow;
+                    }
+
+                    @media screen and (max-width: $screen-sm-min) {
+                        font-size: 24px;
+                    }
+                }
+
+                .project__details--holder {
+                    position: relative;
+                    z-index: 2;
+                    border-radius: 3px;
+                    background-color: $color-dark-purple;
+                    box-shadow: rgba($color: $color-dark-purple, $alpha: 0.4) 8px 10px 10px;
+                    color: $color-light-blue;
+                    padding: 25px;
+                    min-width: 500px;
+
+                    @media screen and (max-width: 37.5em) {
+                        min-width: 100px;
+                    }
+
+                    .project__details--content {
+                        font-size: 16px;
+                        margin: 0px;
+                    }
+                }
+
+                .project__stack--holder {
+                    margin: 25px 0px 10px;
+
+                    .project__stack--item {
+                        font-size: 14px;
+                        font-weight: normal;
+                        font-family: $font-family-sfmono;
+                    }
+                }
+
+                .featured__links--holder {
+                    .featured__item--links {
+                        padding: 10px;
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+}

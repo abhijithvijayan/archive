@@ -1,0 +1,87 @@
+.slideout-panel {
+    position: relative;
+    will-change: transform;
+
+    .hamburger__button {
+        z-index: 30;
+        color: $color-head-white;
+
+        @media screen and (min-width: $screen-sm-min) {
+            // 768px
+            display: none !important;
+        }
+    }
+}
+
+.slideout-menu {
+    display: none;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    left: auto;
+    overflow-y: scroll;
+    right: 0px;
+    height: 100vh;
+    z-index: 10;
+    visibility: visible;
+    outline: 0px;
+
+    .device__navbar--holder {
+        width: 75vw;
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: $color-dark-purple;
+        height: 100%;
+        position: relative;
+        right: 0px;
+        margin-left: auto;
+        box-shadow: rgba($color: $color-purple, $alpha: 0.7) -2px 0px 4px;
+        transition: all 0.20s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+
+        .device__navbar--list {
+            width: 100%;
+            color: $color-head-white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+
+            .device__list--item {
+                font-size: 17px;
+                margin: 0px auto 10px;
+                position: relative;
+                counter-increment: item;
+
+                &::before {
+                    content: "0"counter(item) ".";
+                    text-align: right;
+                    color: $color-white-yellow;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .button__resume {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+}
+
+.slideout-menu-right {
+    right: 0;
+}
+
+.slideout-menu-left {
+    left: 0;
+}
+
+.slideout-open .slideout-menu {
+    display: block;
+}

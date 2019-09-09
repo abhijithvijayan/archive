@@ -1,0 +1,132 @@
+#experience {
+    .wrapper {
+        position: relative;
+        max-width: 700px;
+        margin: 0px auto;
+
+        .exp__main--holder {
+            padding-left: 15px;
+
+            .exp__main--buttons {
+                .exp__main--column {
+                    @media screen and (max-width: 37.5em) {
+                        flex-wrap: nowrap;
+                        margin-bottom: 30px;
+                        width: 100%;
+                        overflow-x: scroll;
+                    }
+
+                    .exp__button {
+                        color: $color-navy-blue;
+                        font-family: $font-family-sfmono;
+                        font-weight: $font-weight-medium;
+                        letter-spacing: 0.5px;
+                        font-size: 14px;
+                        padding: 0px 18px 2px;
+                        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+                        border-left: 2px solid $color-blue-light;
+                        white-space: nowrap;
+                        height: 42px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: relative;
+
+                        @media screen and (max-width: 37.5em) {
+                            border-bottom: 2px solid $color-blue-light;
+                            border-left: 0px;
+                            min-width: 120px;
+                        }
+
+                        &:hover {
+                            background-color: $color-light-purple;
+                            color: $color-white-yellow !important;
+                        }
+                    }
+
+                    .active__highlighter {
+                        display: block;
+                        width: 2px;
+                        height: 42px;
+                        position: absolute;
+                        top: 0px;
+                        left: 0px;
+                        z-index: 10;
+                        background: rgb(100, 255, 218);
+                        border-radius: 2px;
+                        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0.1s;
+
+                        @media screen and (max-width: 37.5em) {
+                            width: 100%;
+                            max-width: 120px;
+                            height: 2px;
+                            top: auto;
+                            bottom: 0px;
+                        }
+                    }
+                }
+            }
+
+            .exp__main--content {
+                padding-top: 7px;
+                padding-left: 30px;
+
+                #VerticaltabContent {
+                    .exp__content--holder {
+                        .exp__title {
+                            font-size: 20px;
+                            color: $color-blue-white;
+                            font-weight: $font-weight-semibold;
+
+                            .company__at {
+                                color: $color-white-yellow;
+
+                                .company__name {
+                                    color: $color-white-yellow;
+                                    position: relative;
+                                    display: inline-block;
+
+                                    &:hover {
+                                        color: $color-white-yellow;
+                                        // ToDO: some animation 
+                                    }
+                                }
+                            }
+                        }
+
+                        .exp__timeline {
+                            font-size: 14px;
+                            margin-bottom: 30px;
+                            font-weight: normal;
+                            letter-spacing: 0.5px;
+                            font-family: $font-family-sfmono;
+                        }
+
+                        .exp__list {
+                            font-size: 16px;
+
+                            .exp__list--item {
+                                position: relative;
+                                padding-left: 30px;
+                                margin-bottom: 10px;
+                                color: $color-light-blue;
+
+                                &::before {
+                                    content: "▹";
+                                    position: absolute;
+                                    left: 0px;
+                                    color: $color-white-yellow;
+                                    line-height: 20px;
+                                }
+
+                                .exp__list--itemLink {
+                                    color: $color-white-yellow;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,26 +1,71 @@
 #home {
-    height: 100vh;
-    background-size: cover;
-    background-color: rgba(255,255,255,.99);
-    .content {
-        position: relative;
-	    display: grid;
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
         min-height: 100vh;
-        align-items: center;
-        .content-title {               
+        margin: 0px auto;
+
+        @media screen and (max-width: $screen-sm-min) {
+            padding-top: 150px;
         }
-        .content-subtitle {
-        }
-        .last-child {
-            margin-right: 0 !important;
-        }
-        .urls {
-            li {
-                margin-right: 10px;
-                a {
-                    font-size: 22px;
+
+        .home__main--content {
+            .home__content--inner {
+                .home__content--intro {
+                    font-size: 16px;
+                    font-family: $font-family-sfmono;
+                    font-weight: normal;
+                    margin: 0px 0px 15px 3px;
+                    color: $color-white-yellow;
                 }
-            }            
+
+                .home__content--main {
+                    font-size: 70px;
+                    line-height: 1.1;
+                    margin: 0px;
+                    color: $color-head-white;
+                    font-weight: $font-weight-semibold;
+                }
+
+                .home__content--end {
+                    font-size: 70px;
+                    line-height: 1.1;
+                    color: $color-sky-blue;
+                    font-weight: $font-weight-semibold;
+                }
+
+                .home__content--main,
+                .home__content--end {
+                    @media screen and (max-width: 62.5em) {
+                        font-size: 63px;
+                    }
+
+                    @media screen and (max-width: $screen-sm-min) {
+                        font-size: 53px;
+                    }
+
+                    @media screen and (max-width: $screen-xxs-max) {
+                        font-size: 43px;
+                    }
+                }
+
+            }
         }
-    }      
+
+        .home__sub--content {
+            margin-top: 25px;
+
+            .home__sub--inner {
+                line-height: 1.5;
+            }
+        }
+
+        .get__in--touch {
+            .touch__button--holder {
+                margin-top: 50px;
+            }
+        }
+    }
 }

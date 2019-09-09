@@ -1,107 +1,177 @@
-.m-head {
-    font-weight: $font-weight-medium;
-    font-size: 1.5em;
-    color: $color-black;
+.shrink {
+    height: 70px !important;
+    box-shadow: $color-shadow 0px 2px 4px;
 }
-.s-head {
-    font-weight: $font-weight-regular;
-    color: $color-black;
-    font-size: 1em;
-    letter-spacing: 0.1em;
+
+.hide {
+    transform: translateY(-75px) !important;
 }
-.p-sub {
-    font-size: 0.9em;
-    line-height: 25px;
+
+.mb-20 {
+    margin-bottom: 20px;
 }
-.pt-20 {
-    padding-top: 20px;
-}
-.mb-10 {
-    margin-bottom: 10px;
-}
-.social {
-    list-style-type: none;
-    display: inline-block;    
-    li {        
-        a {
-          color: #000;
-          font-weight: $font-weight-light;
-          font-size: 18px;
-        }
-    }
-}
-.menu-btn {
-    font-size: 23px;
-    cursor: pointer;
-    color: $color-black;
-    padding-right: 10px;
-}
-.tab-head {
-    font-size: 13px;
-    letter-spacing: 4px;
-    text-align: center;
-}
-.link {
-    color: $color-black;
-    text-decoration: underline;
-    font-size: 0.8em;
+
+.fade-link {
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    color: $color-light-blue;
+
     &:hover {
-        color: #000;
+        color: $color-white-yellow !important;
     }
 }
-.head {
-    font-size: 1.65rem;
+
+.button__main {
+    color: $color-white-yellow !important;
+    background-color: transparent;
+    font-size: 14px;
+    font-family: $font-family-sfmono;
+    line-height: 1;
+    border: 1px solid $color-white-yellow;
+    border-radius: 2px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    padding: 18px 23px;
+
+    &:hover {
+        background-color: $color-light-purple;
+        transition-delay: 200ms;
+    }
+}
+
+.line-title {
+    position: relative;
+    font-size: 30px;
     font-weight: $font-weight-semibold;
-    text-transform: uppercase;
-    color: $color-black;
-    @media screen and (max-width: $screen-xxs-max) and (min-width: $screen-xxs-min) {
-        font-size: 1.8338rem;
-        font-weight: $font-weight-regular;
+    color: $color-head-white;
+    margin: 10px 0px 40px;
+    white-space: nowrap;
+
+    @media screen and (max-width: $screen-sm-min) {
+        font-size: 24px;
     }
-    @media screen and (max-width: $screen-xs-max) and (min-width: $screen-xs-min) {
-        font-size: 2.9rem;
-        font-weight: $font-weight-regular;
+
+    &::before {
+        margin-right: 10px;
+        font-family: $font-family-sfmono;
+        font-weight: normal;
+        color: $color-white-yellow;
+        font-size: 20px;
+        position: relative;
+        counter-increment: section;
+        content: "0"counter(section) ".";
     }
-    @media screen and (max-width: $screen-sm-max) and (min-width: $screen-sm-min) {
-        font-size: 4rem;
-        font-weight: $font-weight-medium;
-    }    
-    @media screen and (max-width: $screen-md-max) and (min-width: $screen-md-min) {
-        font-size: 4.4rem;
-    }
-    @media screen and (max-width: $screen-lg-max) and (min-width: $screen-lg-min) {
-        font-size: 4.8rem;
-    }
-    @media screen and (max-width: $screen-xlg-max) and (min-width: $screen-xlg-min) {
-        font-size: 5rem;
-    }
-}
-.head-m {    
-    font-weight: $font-weight-regular;
-    font-size: 1.1rem;
-    color: $color-black;
-    @media screen and (max-width: $screen-xxs-max) and (min-width: $screen-xxs-min) {
-        font-size: 1.3rem;
-        font-weight: $font-weight-regular;
-    }
-    @media screen and (max-width: $screen-xs-max) and (min-width: $screen-xs-min) {
-        font-size: 1.333rem;
-        font-weight: $font-weight-regular;
-    }
-    @media screen and (max-width: $screen-sm-max) and (min-width: $screen-sm-min) {
-        font-size: 1.5rem;
-        font-weight: $font-weight-medium;
-    }    
-    @media screen and (max-width: $screen-md-max) and (min-width: $screen-md-min) {
-        font-size: 1.5rem;
-        font-weight: $font-weight-medium;
-    }
-    @media screen and (max-width: $screen-lg-max) and (min-width: $screen-lg-min) {
-        font-size: 1.5rem;
-        font-weight: $font-weight-medium;
-    }
-    @media screen and (max-width: $screen-xlg-max) and (min-width: $screen-xlg-min) {
-        font-size: 1.5rem;
-        font-weight: $font-weight-medium;
+
+    &::after {
+        content: "";
+        display: block;
+        height: 2px;
+        width: 300px;
+        background-color: $color-dark-shade;
+        position: relative;
+        margin-left: 20px;
     }
 }
+
+.subtitle {
+    color: $color-sky-blue;
+    font-size: 17px;
+    line-height: 1.4;
+    margin: 0px 0px 15px;
+
+    .innersub {
+        color: $color-white-yellow;
+    }
+}
+
+.wrapper {
+    padding: 150px 0px;
+    margin: 0px auto;
+    max-width: 1000px;
+
+    @media screen and (max-width: $screen-sm-min) {
+        padding: 100px 0px;
+    }
+}
+
+.active__tab {
+    color: $color-white-yellow !important;
+    background-color: $color-light-purple;
+}
+
+.ty-0 {
+    transform: translateY(0px);
+}
+
+.ty-1 {
+    transform: translateY(42px);
+}
+
+.ty-2 {
+    transform: translateY(84px);
+}
+
+.ty-3 {
+    transform: translateY(126px);
+}
+
+.ty-4 {
+    transform: translateY(168px);
+}
+
+.ty-5 {
+    transform: translateY(210px);
+}
+
+.tx-100 {
+    transform: translateX(-100px);
+
+    @media screen and (max-width: $screen-sm-min) {
+        transform: none;
+    }
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.blur {
+    overflow: hidden !important;
+
+    #content__holder>* {
+        filter: blur(5px) brightness(0.7);
+        pointer-events: auto !important;
+        user-select: auto !important;
+    }
+}
+
+.display-none {
+    display: none;
+}
+
+.hamburger__arrow {
+
+    &::before,
+    &::after {
+        left: auto;
+        right: 0px;
+    }
+
+    &::before {
+        width: 120% !important;
+    }
+
+    &::after {
+        width: 80% !important;
+    }
+}
+
+// .bl-line {
+//     border-left: 2px solid $color-blue-light;
+// }
+// .bb-line {
+//     border-bottom: 2px solid $color-blue-light;
+//     border-left: 0px;
+// }
